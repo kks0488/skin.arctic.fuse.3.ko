@@ -32,7 +32,7 @@ def main():
         assert tokens(en[key]['msgid']) == tokens(ko[key]['msgstr']), key
     files = [ROOT/n for n in ('addon.xml','LICENSE.txt','Readme.md','HOME-KO.md','icon.png','fanart.jpg')]
     for folder in ('1080i','colors','extras','fonts','language','media','shortcuts'):
-        files += [f for f in (ROOT/folder).rglob('*') if f.is_file()]
+        files += [f for f in (ROOT/folder).rglob('*') if f.is_file() and '__pycache__' not in f.parts and f.suffix != '.pyc']
     for f in files:
         assert not (f.suffix.lower() in ('.ttf', '.otf', '.ttc', '.woff', '.woff2') and 'apple' in f.name.lower()), 'Personal Apple font must not be packaged'
         if f.suffix == '.xml': ET.parse(f)
