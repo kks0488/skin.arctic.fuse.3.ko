@@ -9,5 +9,6 @@
   "Hub.Home.DisableSubmenu": false,
   "HomeSwitcher.Home.Spotlight.Target": "",
   "HomeSwitcher.Home.Spotlight.Path": "",
-  "HomeSwitcher.Home.Spotlight.Label": ""
+  "HomeSwitcher.Home.Spotlight.Label": "",
+  "HomeSwitcher.Home.Mode": "Wall"
 }

@@ -1,34 +1,22 @@
 [
     {
-        "label": "이어볼 영화",
-        "icon": "",
-        "path": "special://skin/extras/playlists/InProgressMovies.xsp",
+        "label": "영화 전체",
+        "icon": "special://skin/extras/icons/film.png",
+        "path": "videodb://movies/titles/",
         "target": "videos",
         "widget_style": "Poster",
-        "widget_limit": "20"
+        "widget_limit": "0",
+        "widget_sortby": "sorttitle",
+        "widget_sortorder": "ascending"
     },
     {
-        "label": "이어볼 에피소드",
-        "icon": "",
-        "path": "special://skin/extras/playlists/InProgressEpisodes.xsp",
+        "label": "시리즈 전체",
+        "icon": "special://skin/extras/icons/tv.png",
+        "path": "videodb://tvshows/titles/",
         "target": "videos",
         "widget_style": "Poster",
-        "widget_limit": "20"
-    },
-    {
-        "label": "최근 추가 영화",
-        "icon": "",
-        "path": "special://skin/extras/playlists/RecentMovies.xsp",
-        "target": "videos",
-        "widget_style": "Poster",
-        "widget_limit": "20"
-    },
-    {
-        "label": "최근 업데이트 시리즈",
-        "icon": "",
-        "path": "special://skin/extras/playlists/RecentTvShows.xsp",
-        "target": "videos",
-        "widget_style": "Poster",
-        "widget_limit": "20"
+        "widget_limit": "0",
+        "widget_sortby": "sorttitle",
+        "widget_sortorder": "ascending"
     }
 ]
