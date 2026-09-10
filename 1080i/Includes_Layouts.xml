@@ -2084,12 +2084,21 @@
                         <param name="selected">$PARAM[selected]</param>
                     </include>
                     </control>
-                    <control type="label">
+                    <control type="group">
                         <visible>String.IsEqual(ListItem.Property(node.type),target_folder)</visible>
-                        <left>10</left><right>10</right><top>0</top><bottom>0</bottom>
-                        <align>center</align><aligny>center</aligny>
-                        <font>font_main_bold</font><textcolor>main_fg</textcolor>
-                        <label>더보기  →</label>
+                        <width>$PARAM[item_w]</width><height>$PARAM[item_h]</height>
+                        <control type="image">
+                            <width>$PARAM[item_w]</width><height>$PARAM[item_h]</height>
+                            <texture colordiffuse="FF202A38" border="20">common/box.png</texture>
+                        </control>
+                        <control type="textbox">
+                            <left>0</left><top>0</top>
+                            <width>$PARAM[item_w]</width><height>$PARAM[item_h]</height>
+                            <align>center</align><aligny>center</aligny>
+                            <font>font_main_bold</font><textcolor>FFFFFFFF</textcolor>
+                            <autoscroll>false</autoscroll>
+                            <label>더보기[CR]전체 목록  →</label>
+                        </control>
                     </control>
                 </control>
                 <control type="group">
