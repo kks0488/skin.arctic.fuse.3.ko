@@ -26,10 +26,10 @@
                         "String.IsEmpty(Window.Property(ReloadDone))",
                         "!Skin.HasSetting(DefaultConfig.InitDone)"],
                     "value": [
-                        "Skin.SetBool(TMDbHelper.EnableData)",
-                        "Skin.SetBool(TMDbHelper.EnableCrop)",
-                        "Skin.SetBool(TMDbHelper.EnableBlur)",
-                        "Skin.SetBool(TMDbHelper.Service)",
+                        "Skin.Reset(TMDbHelper.EnableData)",
+                        "Skin.Reset(TMDbHelper.EnableCrop)",
+                        "Skin.Reset(TMDbHelper.EnableBlur)",
+                        "Skin.Reset(TMDbHelper.Service)",
                         "Skin.SetString(Background.DialogImage,Adaptive)",
                         "Skin.SetString(Background.Image,special://skin/extras/backgrounds/blur/purple_blur.jpg)",
                         "Skin.SetString(HomeSwitcher.1107.Toggle,true)",
@@ -42,7 +42,7 @@
                 }],
                 "Skin.SetBool(TMDbHelper.UseLocalWidgetContainer)",
                 "Skin.SetBool(TMDbHelper.DisableExtendedProperties)",
-                "Skin.SetBool(TMDbHelper.EnableCurrentWindowImages)",
+                "Skin.Reset(TMDbHelper.EnableCurrentWindowImages)",
                 "Skin.SetBool(TMDbHelper.DirectCallAuto)",
                 "Skin.Reset(TMDbHelper.MonitorContainer)",
                 "Skin.Reset(TMDbHelper.DisableArtwork)",
@@ -153,7 +153,7 @@
                     "value": "Skin.SetBool(TMDbHelper.EnableData)"
                 }],
                 "SetProperty(InitStatus,Reticulating Splines,1198)",
-                "RunScript(plugin.video.themoviedb.helper,blur_image={var_image_simplebackground},prefix=SimpleBackground)"
+                {"rules": ["Skin.HasSetting(TMDbHelper.EnableBlur)"], "value": "RunScript(plugin.video.themoviedb.helper,blur_image={var_image_simplebackground},prefix=SimpleBackground)"}
             ]
         }],
 

@@ -18,5 +18,10 @@
   "Plotline.movie": "None",
   "Plotline.tvshow": "None",
   "Header.DisableWeather": true,
-  "Footer.DisableStudio": true
+  "Footer.DisableStudio": true,
+  "TMDbHelper.Service": false,
+  "TMDbHelper.EnableCrop": false,
+  "TMDbHelper.EnableColors": false,
+  "TMDbHelper.EnableDesaturate": false,
+  "TMDbHelper.EnableCurrentWindowImages": false
 }

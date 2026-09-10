@@ -46,3 +46,9 @@ Kodi 설정 → 인터페이스 → 스킨에서 `Arctic Fuse 3` 또는 `Estuary
 ## 사용하지 않는 부가 기능
 
 제작사 로고 표시를 끕니다. 사용자 TV에서는 YouTube, Kodi Android Installer, Version Check 애드온을 삭제하지 않고 비활성화했습니다. 스킨에 필요한 TMDbHelper는 유지하며 온라인 정보 조회만 꺼져 있습니다. 이 애드온 활성 상태는 스킨 ZIP만으로 다른 기기에 자동 적용되지 않습니다.
+
+## Lightweight local library defaults (3.2.19.6)
+
+TMDb Helper data monitoring, image cropping, blur, desaturation, and color extraction are disabled in the home preset. Startup no longer enables image monitoring, and its blur script runs only when blur is explicitly enabled. Posters, fanart, plots, local search, and the existing genre rows continue to use Kodi library data.
+
+The installed TV also disables TMDb Helper online artwork/ratings and its automatic library updates through the add-on settings. This does not disable Kodi library scraping when new media is added. Required helper add-ons remain installed: this is a lighter Arctic Fuse configuration, not an Estuary-only implementation or a zero-background-thread claim.
