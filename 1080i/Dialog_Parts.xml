@@ -212,7 +212,7 @@
     <include name="Part_CloseButton">
         <param name="id">90001</param>
         <param name="groupid">90101</param>
-        <param name="onclick">Close</param>
+        <param name="onclick">Action(Back)</param>
         <param name="icon">special://skin/extras/icons/xmark.png</param>
         <definition>
             <control type="group">
@@ -221,6 +221,7 @@
                 <height>80</height>
                 <width>80</width>
                 <control type="button" id="$PARAM[id]">
+                    <width>80</width><height>80</height>
                     <include>Texture_Circle_Highlight_Focus_V</include>
                     <texturenofocus />
                     <onclick>$PARAM[onclick]</onclick>

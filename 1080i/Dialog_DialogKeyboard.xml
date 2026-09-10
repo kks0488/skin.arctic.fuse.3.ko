@@ -554,7 +554,7 @@
 
         <include content="Object_Keyboard_Button" description="Space">
             <param name="id">32</param>
-            <label>20182</label>
+            <label>띄어쓰기</label>
             <width>keyboard_spacebar_w</width>
             <onup>167</onup>
         </include>
