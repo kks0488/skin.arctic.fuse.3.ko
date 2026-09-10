@@ -13,5 +13,8 @@
   "HomeSwitcher.Home.Mode": "Standard",
   "Widgets.EnableShowMore": true,
   "Search.DisableDiscover": true,
-  "HomeSwitcher.Search.Mode": "Standard"
+  "HomeSwitcher.Search.Mode": "Standard",
+  "Background.DisableVideo": true,
+  "Plotline.movie": "None",
+  "Plotline.tvshow": "None"
 }
