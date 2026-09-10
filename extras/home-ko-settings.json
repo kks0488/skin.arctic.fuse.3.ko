@@ -11,7 +11,7 @@
   "HomeSwitcher.Home.Spotlight.Path": "",
   "HomeSwitcher.Home.Spotlight.Label": "",
   "HomeSwitcher.Home.Mode": "Standard",
-  "Widgets.EnableShowMore": false,
+  "Widgets.EnableShowMore": true,
   "Search.DisableDiscover": true,
   "HomeSwitcher.Search.Mode": "Standard",
   "Background.DisableVideo": true,

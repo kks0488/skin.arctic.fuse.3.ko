@@ -52,3 +52,9 @@ Kodi 설정 → 인터페이스 → 스킨에서 `Arctic Fuse 3` 또는 `Estuary
 TMDb Helper data monitoring, image cropping, blur, desaturation, and color extraction are disabled in the home preset. Startup no longer enables image monitoring, and its blur script runs only when blur is explicitly enabled. Posters, fanart, plots, local search, and the existing genre rows continue to use Kodi library data.
 
 The installed TV also disables TMDb Helper online artwork/ratings and its automatic library updates through the add-on settings. This does not disable Kodi library scraping when new media is added. Required helper add-ons remain installed: this is a lighter Arctic Fuse configuration, not an Estuary-only implementation or a zero-background-thread claim.
+
+## Browse complete lists (3.2.19.7)
+
+Limited home rows use Kodi's native browse item when more results exist. Poster layouts render target_folder items as a simple Korean More label instead of the default folder image. This does not add a Python service.
+
+The personal TV uses Apple SD Gothic Neo for UI and text subtitles. Those font binaries and the device-specific Font.xml are not included in this public package. Preserve the personal Font.xml when deploying updates to that TV.
