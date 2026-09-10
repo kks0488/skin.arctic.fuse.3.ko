@@ -70,5 +70,14 @@
         "target": "videos",
         "widget_style": "Poster",
         "widget_limit": "16"
+    },
+    {
+        "label": "영화 전체",
+        "icon": "special://skin/extras/icons/film.png",
+        "path": "videodb://movies/titles/",
+        "target": "videos",
+        "widget_style": "Poster",
+        "widget_limit": "0",
+        "widget_sortby": "sorttitle"
     }
 ]

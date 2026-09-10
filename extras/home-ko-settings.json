@@ -11,10 +11,11 @@
   "HomeSwitcher.Home.Spotlight.Path": "",
   "HomeSwitcher.Home.Spotlight.Label": "",
   "HomeSwitcher.Home.Mode": "Standard",
-  "Widgets.EnableShowMore": true,
+  "Widgets.EnableShowMore": false,
   "Search.DisableDiscover": true,
   "HomeSwitcher.Search.Mode": "Standard",
   "Background.DisableVideo": true,
   "Plotline.movie": "None",
-  "Plotline.tvshow": "None"
+  "Plotline.tvshow": "None",
+  "Header.DisableWeather": true
 }
