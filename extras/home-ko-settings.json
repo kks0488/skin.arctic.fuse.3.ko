@@ -17,5 +17,6 @@
   "Background.DisableVideo": true,
   "Plotline.movie": "None",
   "Plotline.tvshow": "None",
-  "Header.DisableWeather": true
+  "Header.DisableWeather": true,
+  "Footer.DisableStudio": true
 }
