@@ -1,4 +1,4 @@
-<addon id="skin.arctic.fuse.3" name="Arctic Fuse 3" provider-name="jurialmunkey" version="3.2.19">
+<addon id="skin.arctic.fuse.3.ko" name="Arctic Fuse 3 한국어" provider-name="jurialmunkey / kks0488" version="3.2.19.1">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         <import addon="script.skinvariables" version="2.2.2" />
@@ -19,6 +19,7 @@
         <res aspect="18:9" default="false" folder="1080i" width="2160" height="1080" />
     </extension>
     <extension point="xbmc.addon.metadata">
+        <summary lang="ko">가족을 위한 한국어 Arctic Fuse 3</summary>
         <summary lang="en">A minimal row based skin</summary>
         <summary lang="es">Una skin minimalista de diseño horizontal</summary>
         <summary lang="de">Ein minimalistisches, zeilenbasiertes Skin</summary>
@@ -32,7 +33,7 @@
         <platform>all</platform>
         <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
         <forum />
-        <source />
+        <source>https://github.com/kks0488/skin.arctic.fuse.3.ko</source>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>

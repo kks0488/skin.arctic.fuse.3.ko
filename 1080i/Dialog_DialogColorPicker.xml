@@ -151,7 +151,7 @@
                 <!-- Red -->
                 <include content="Object_ColorSlider">
                     <param name="id">2</param>
-                    <param name="label">Red</param>
+                    <param name="label">빨강</param>
                     <param name="color">Red</param>
                     <param name="onup">9000</param>
                     <param name="ondown">8003</param>
@@ -160,7 +160,7 @@
                 <!-- Green -->
                 <include content="Object_ColorSlider">
                     <param name="id">3</param>
-                    <param name="label">Green</param>
+                    <param name="label">초록</param>
                     <param name="color">Green</param>
                     <param name="onup">8002</param>
                     <param name="ondown">8004</param>
@@ -169,7 +169,7 @@
                 <!-- Blue -->
                 <include content="Object_ColorSlider">
                     <param name="id">4</param>
-                    <param name="label">Blue</param>
+                    <param name="label">파랑</param>
                     <param name="color">Blue</param>
                     <param name="onup">8003</param>
                     <param name="ondown">8001</param>
@@ -178,7 +178,7 @@
                 <!-- Alpha -->
                 <include content="Object_ColorSlider">
                     <param name="id">1</param>
-                    <param name="label">Alpha</param>
+                    <param name="label">투명도</param>
                     <param name="color">Alpha</param>
                     <param name="onup">8004</param>
                     <param name="onback">9000</param>

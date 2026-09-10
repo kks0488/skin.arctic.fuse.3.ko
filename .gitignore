@@ -8,3 +8,11 @@ Thumbs.db
 *.sublime-project
 *.sublime-workspace
 .DS_Store
+
+# Local build artifacts and private runtime data
+dist/
+__pycache__/
+*.pyc
+userdata/
+backup/
+.env

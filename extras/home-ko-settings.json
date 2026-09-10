@@ -1,0 +1,13 @@
+{
+  "TMDbHelper.EnableData": false,
+  "TMDbHelper.EnableBlur": false,
+  "Info.UseLocalCast": true,
+  "VideoInfo.Widgets.EnableLocalCollection": true,
+  "Background.ExtraFanart": false,
+  "Startup.EnableHubPreloading": false,
+  "SeasonalTheme.Enable": false,
+  "Hub.Home.DisableSubmenu": false,
+  "HomeSwitcher.Home.Spotlight.Target": "",
+  "HomeSwitcher.Home.Spotlight.Path": "",
+  "HomeSwitcher.Home.Spotlight.Label": ""
+}

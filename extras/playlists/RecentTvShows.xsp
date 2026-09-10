@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <smartplaylist type="tvshows">
-    <name>Recently Watched TV Shows</name>
+    <name>최근 업데이트 시리즈</name>
     <match>all</match>
-    <limit>50</limit>
+    <limit>20</limit>
     <order direction="descending">lastplayed</order>
 </smartplaylist>

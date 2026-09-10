@@ -1,38 +1,34 @@
 [
     {
-        "label": "On Deck",
+        "label": "이어볼 영화",
         "icon": "",
         "path": "special://skin/extras/playlists/InProgressMovies.xsp",
-        "target": "videos"
+        "target": "videos",
+        "widget_style": "Poster",
+        "widget_limit": "20"
     },
     {
-        "label": "In-Progress",
+        "label": "이어볼 에피소드",
         "icon": "",
         "path": "special://skin/extras/playlists/InProgressEpisodes.xsp",
-        "target": "videos"
+        "target": "videos",
+        "widget_style": "Poster",
+        "widget_limit": "20"
     },
     {
-        "label": "New Movies",
+        "label": "최근 추가 영화",
         "icon": "",
-        "path": "special://skin/extras/playlists/NewMovies.xsp",
-        "target": "videos"
+        "path": "special://skin/extras/playlists/RecentMovies.xsp",
+        "target": "videos",
+        "widget_style": "Poster",
+        "widget_limit": "20"
     },
     {
-        "label": "New Shows",
-        "icon": "",
-        "path": "special://skin/extras/playlists/NewShows.xsp",
-        "target": "videos"
-    },
-    {
-        "label": "Recent Shows",
+        "label": "최근 업데이트 시리즈",
         "icon": "",
         "path": "special://skin/extras/playlists/RecentTvShows.xsp",
-        "target": "videos"
-    },
-    {
-        "label": "Top 250",
-        "icon": "",
-        "path": "special://skin/extras/playlists/Top250Movies.xsp",
-        "target": "videos"
+        "target": "videos",
+        "widget_style": "Poster",
+        "widget_limit": "20"
     }
 ]

@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <fonts>
 
-    <fontset id="Default" unicode="false">
-        <include>Font_Default</include>
+    <fontset id="Default" unicode="true">
+        <include content="Font_Default">
+            <param name="font_bold">NotoSansKR-Bold.ttf</param>
+            <param name="font_regular">NotoSansKR-Regular.ttf</param>
+            <param name="font_light">NotoSansKR-Regular.ttf</param>
+        </include>
     </fontset>
 
     <fontset id="Default (Unicode)" unicode="true">
         <include content="Font_Default">
-            <param name="font_bold">resource://resource.font.robotocjksc/Inter-Unicode-Bold.ttf</param>
-            <param name="font_regular">resource://resource.font.robotocjksc/Inter-Unicode-Regular.ttf</param>
-            <param name="font_light">resource://resource.font.robotocjksc/Inter-Unicode-Regular.ttf</param>
+            <param name="font_bold">NotoSansKR-Bold.ttf</param>
+            <param name="font_regular">NotoSansKR-Regular.ttf</param>
+            <param name="font_light">NotoSansKR-Regular.ttf</param>
             <param name="style_light">light</param>
 
             <param name="plot_linespacing_head">1.03</param>

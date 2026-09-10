@@ -44,54 +44,54 @@
     },
     "grouping://shortcuts/": [
         {
-            "name": "None",
+            "name": "없음",
             "path": "noop",
             "icon": "special://skin/extras/icons/watched-hide.png",
             "link": "true"
         },
         {
-            "name": "Subgroup",
+            "name": "하위 그룹",
             "path": "Custom_Submenu",
             "icon": "special://skin/extras/icons/bars.png",
             "link": "true",
             "rule": "String.IsEqual(Window(Home).Property(Shortcuts.Groupings.Subgroup),True)"
         },
         {
-            "name": "Default",
+            "name": "기본",
             "path": "grouping://shortcuts/default/",
             "icon": "special://skin/extras/icons/folder.png",
             "link": "false",
             "rule": "!String.IsEqual(Window(Home).Property(Shortcuts.Groupings.Links),Links)"
         },
         {
-            "name": "Experimental",
+            "name": "실험 기능",
             "path": "grouping://shortcuts/widgets/experimental/",
             "icon": "special://skin/extras/icons/folder.png",
             "link": "false",
             "rule": "!String.IsEqual(Window(Home).Property(Shortcuts.Groupings.Links),Links)"
         },
         {
-            "name": "Videos",
+            "name": "동영상",
             "path": "library://video/",
             "icon": "special://skin/extras/icons/video.png",
             "link": "false",
             "node": "videos"
         },
         {
-            "name": "Music",
+            "name": "음악",
             "path": "library://music/",
             "icon": "special://skin/extras/icons/music.png",
             "link": "false",
             "node": "music"
         },
         {
-            "name": "Add-ons",
+            "name": "애드온",
             "path": "grouping://shortcuts/addons/",
             "icon": "special://skin/extras/icons/addon.png",
             "link": "false"
         },
         {
-            "name": "Live TV and PVR",
+            "name": "실시간 TV 및 녹화",
             "path": "grouping://shortcuts/links/pvr/",
             "icon": "special://skin/extras/icons/livetv.png",
             "link": "false",
@@ -99,27 +99,27 @@
             "rule": "String.IsEqual(Window(Home).Property(Shortcuts.Groupings.Links),Links)"
         },
         {
-            "name": "Playlists",
+            "name": "재생목록",
             "path": "grouping://shortcuts/playlists/",
             "icon": "special://skin/extras/icons/folder.png",
             "link": "false"
         },
         {
-            "name": "Sources",
+            "name": "미디어 소스",
             "path": "grouping://shortcuts/sources/",
             "icon": "special://skin/extras/icons/hard-drive.png",
             "link": "false"
         },
         "grouping://shortcuts/tmdbhelper/",
         {
-            "name": "Miscellaneous",
+            "name": "기타",
             "path": "grouping://shortcuts/links/kodi/",
             "icon": "special://skin/extras/icons/window-restore-regular.png",
             "link": "false",
             "rule": "String.IsEqual(Window(Home).Property(Shortcuts.Groupings.Links),Links)"
         },
         {
-            "name": "Kodi Commands",
+            "name": "Kodi 명령",
             "path": "grouping://shortcuts/links/commands/",
             "icon": "special://skin/extras/icons/kodi.png",
             "link": "false",
@@ -128,28 +128,28 @@
     ],
     "grouping://shortcuts/playlists/": [
         {
-            "name": "Video Playlists",
+            "name": "동영상 재생목록",
             "path": "special://videoplaylists/",
             "icon": "special://skin/extras/icons/folder.png",
             "node": "videos",
             "link": "false"
         },
         {
-            "name": "Music Playlists",
+            "name": "음악 재생목록",
             "path": "special://musicplaylists/",
             "icon": "special://skin/extras/icons/folder.png",
             "node": "music",
             "link": "false"
         },
         {
-            "name": "Skin Playlists",
+            "name": "스킨 재생목록",
             "path": "special://skin/extras/playlists/",
             "icon": "special://skin/extras/icons/folder.png",
             "node": "videos",
             "link": "false"
         },
         {
-            "name": "Hub Playlists",
+            "name": "메뉴 화면 재생목록",
             "path": "special://skin/extras/hub/",
             "icon": "special://skin/extras/icons/folder.png",
             "node": "videos",
@@ -158,147 +158,147 @@
     ],
     "grouping://shortcuts/search/": [
         {
-            "name": "Movies",
+            "name": "영화",
             "icon": "special://skin/extras/icons/film.png",
             "path": "DefaultSearch-Movies",
             "node": "videos",
             "link": "true"
         },
         {
-            "name": "Tv Shows",
+            "name": "시리즈",
             "icon": "special://skin/extras/icons/tv.png",
             "path": "DefaultSearch-TvShows",
             "node": "videos",
             "link": "true"
         },
         {
-            "name": "Episodes",
+            "name": "에피소드",
             "icon": "special://skin/extras/icons/tv.png",
             "path": "DefaultSearch-Episodes",
             "node": "videos",
             "link": "true"
         },
         {
-            "name": "Movie Actors",
+            "name": "영화 출연진",
             "icon": "special://skin/extras/icons/person.png",
             "path": "DefaultSearch-MovieActors",
             "node": "videos",
             "link": "true"
         },
         {
-            "name": "TV Show Actors",
+            "name": "시리즈 출연진",
             "icon": "special://skin/extras/icons/person.png",
             "path": "DefaultSearch-TVShowActors",
             "node": "videos",
             "link": "true"
         },
         {
-            "name": "Movie Directors",
+            "name": "영화 감독",
             "icon": "special://skin/extras/icons/person.png",
             "path": "DefaultSearch-MovieDirectors",
             "node": "videos",
             "link": "true"
         },
         {
-            "name": "Plot",
+            "name": "줄거리",
             "icon": "special://skin/extras/icons/align-center.png",
             "path": "DefaultSearch-Plot",
             "node": "videos",
             "link": "true"
         },
         {
-            "name": "Tagline",
+            "name": "소개 문구",
             "icon": "special://skin/extras/icons/quote.png",
             "path": "DefaultSearch-Tagline",
             "node": "videos",
             "link": "true"
         },
         {
-            "name": "Outline",
+            "name": "개요",
             "icon": "special://skin/extras/icons/quote.png",
             "path": "DefaultSearch-Outline",
             "node": "videos",
             "link": "true"
         },
         {
-            "name": "Tags",
+            "name": "태그",
             "icon": "special://skin/extras/icons/tags.png",
             "path": "DefaultSearch-Tags",
             "node": "videos",
             "link": "true"
         },
         {
-            "name": "Genres",
+            "name": "장르",
             "icon": "special://skin/extras/icons/genre.png",
             "path": "DefaultSearch-Genres",
             "node": "videos",
             "link": "true"
         },
         {
-            "name": "Year",
+            "name": "연도",
             "icon": "special://skin/extras/icons/years.png",
             "path": "DefaultSearch-Year",
             "node": "videos",
             "link": "true"
         },
         {
-            "name": "Studio",
+            "name": "제작사",
             "icon": "special://skin/extras/icons/clapperboard.png",
             "path": "DefaultSearch-Studio",
             "node": "videos",
             "link": "true"
         },
         {
-            "name": "Country",
+            "name": "국가",
             "icon": "special://skin/extras/icons/world.png",
             "path": "DefaultSearch-Country",
             "node": "videos",
             "link": "true"
         },
         {
-            "name": "Actor",
+            "name": "배우",
             "icon": "special://skin/extras/icons/person.png",
             "path": "DefaultSearch-Actor",
             "node": "videos",
             "link": "true"
         },
         {
-            "name": "Director",
+            "name": "감독",
             "icon": "special://skin/extras/icons/person.png",
             "path": "DefaultSearch-Director",
             "node": "videos",
             "link": "true"
         },
         {
-            "name": "Albums",
+            "name": "앨범",
             "icon": "special://skin/extras/icons/songs.png",
             "path": "DefaultSearch-Albums",
             "node": "music",
             "link": "true"
         },
         {
-            "name": "Artists",
+            "name": "아티스트",
             "icon": "special://skin/extras/icons/songs.png",
             "path": "DefaultSearch-Artists",
             "node": "music",
             "link": "true"
         },
         {
-            "name": "Songs",
+            "name": "곡",
             "icon": "special://skin/extras/icons/songs.png",
             "path": "DefaultSearch-Songs",
             "node": "music",
             "link": "true"
         },
         {
-            "name": "Music Videos",
+            "name": "뮤직비디오",
             "icon": "special://skin/extras/icons/musicvideo.png",
             "path": "DefaultSearch-MusicVideos",
             "node": "music",
             "link": "true"
         },
         {
-            "name": "Music Video Artists",
+            "name": "뮤직비디오 아티스트",
             "icon": "special://skin/extras/icons/musicvideo.png",
             "path": "DefaultSearch-MusicVideoArtists",
             "node": "music",
@@ -614,7 +614,7 @@
         },
 
         {
-            "name": "Other",
+            "name": "기타",
             "icon": "special://skin/extras/icons/folder.png",
             "path": "grouping://shortcuts/",
             "node": "",
@@ -624,35 +624,35 @@
     ],
     "grouping://shortcuts/addons/": [
         {
-            "name": "Video Add-ons",
+            "name": "동영상 애드온",
             "path": "addons://sources/video/",
             "icon": "special://skin/extras/icons/addon.png",
             "link": "false",
             "node": "videos"
         },
         {
-            "name": "Music Add-ons",
+            "name": "음악 애드온",
             "path": "addons://sources/audio/",
             "icon": "special://skin/extras/icons/addon.png",
             "link": "false",
             "node": "music"
         },
         {
-            "name": "Image Add-ons",
+            "name": "이미지 애드온",
             "path": "addons://sources/image/",
             "icon": "special://skin/extras/icons/addon.png",
             "link": "false",
             "node": "pictures"
         },
         {
-            "name": "Program Add-ons",
+            "name": "프로그램 애드온",
             "path": "addons://sources/executable/",
             "icon": "special://skin/extras/icons/addon.png",
             "link": "false",
             "node": "programs"
         },
         {
-            "name": "Android Add-ons",
+            "name": "안드로이드 애드온",
             "path": "androidapp://sources/apps/",
             "icon": "special://skin/extras/icons/addon.png",
             "link": "false",
@@ -660,7 +660,7 @@
             "rule": "System.Platform.Android"
         },
         {
-            "name": "Game Add-ons",
+            "name": "게임 애드온",
             "path": "addons://sources/game/",
             "icon": "special://skin/extras/icons/addon.png",
             "link": "false",
@@ -669,28 +669,28 @@
     ],
     "grouping://shortcuts/sources/": [
         {
-            "name": "Video Sources",
+            "name": "동영상 소스",
             "path": "sources://video/",
             "icon": "special://skin/extras/icons/hard-drive.png",
             "node": "videos",
             "link": "false"
         },
         {
-            "name": "Music Sources",
+            "name": "음악 소스",
             "path": "sources://music/",
             "icon": "special://skin/extras/icons/hard-drive.png",
             "node": "music",
             "link": "false"
         },
         {
-            "name": "Picture Sources",
+            "name": "사진 소스",
             "path": "sources://pictures/",
             "icon": "special://skin/extras/icons/hard-drive.png",
             "node": "pictures",
             "link": "false"
         },
         {
-            "name": "Program Sources",
+            "name": "프로그램 소스",
             "path": "sources://programs/",
             "icon": "special://skin/extras/icons/hard-drive.png",
             "node": "programs",
@@ -698,14 +698,14 @@
         },
         
         {
-            "name": "File Sources",
+            "name": "파일 소스",
             "path": "sources://files/",
             "icon": "special://skin/extras/icons/hard-drive.png",
             "node": "videos",
             "link": "false"
         },
         {
-            "name": "Game Sources",
+            "name": "게임 소스",
             "path": "sources://games/",
             "icon": "special://skin/extras/icons/hard-drive.png",
             "node": "games",
@@ -714,14 +714,14 @@
     ],
     "grouping://shortcuts/tmdbhelper/": [
         {
-            "name": "SkinVariables Custom Filter",
+            "name": "SkinVariables 사용자 지정 필터",
             "icon": "special://skin/extras/icons/filter.png",
             "link": "false",
             "node": "videos",
             "path": "plugin://script.skinvariables/?info=get_filter_files"
         },
         {
-            "name": "TMDbHelper Nodes",
+            "name": "TMDbHelper 노드",
             "path": "plugin://plugin.video.themoviedb.helper/?info=dir_custom_node",
             "icon": "special://skin/extras/icons/plug.png",
             "link": "false",
@@ -729,7 +729,7 @@
             "node": "videos"
         },
         {
-            "name": "TMDbHelper Movies",
+            "name": "TMDbHelper 영화",
             "path": "plugin://plugin.video.themoviedb.helper/?info=dir_movie",
             "icon": "special://skin/extras/icons/plug.png",
             "link": "false",
@@ -737,7 +737,7 @@
             "node": "videos"
         },
         {
-            "name": "TMDbHelper TV Shows",
+            "name": "TMDbHelper 시리즈",
             "path": "plugin://plugin.video.themoviedb.helper/?info=dir_tv",
             "icon": "special://skin/extras/icons/plug.png",
             "link": "false",
@@ -745,7 +745,7 @@
             "node": "videos"
         },
         {
-            "name": "TMDbHelper Randomised",
+            "name": "TMDbHelper 무작위",
             "path": "plugin://plugin.video.themoviedb.helper/?info=dir_random",
             "icon": "special://skin/extras/icons/plug.png",
             "link": "false",
@@ -753,7 +753,7 @@
             "node": "videos"
         },
         {
-            "name": "TMDbHelper All",
+            "name": "TMDbHelper 전체",
             "path": "plugin://plugin.video.themoviedb.helper/",
             "icon": "special://skin/extras/icons/plug.png",
             "link": "false",
@@ -763,42 +763,42 @@
     ],
     "grouping://shortcuts/default/": [
         {
-            "name": "Movies",
+            "name": "영화",
             "path": "grouping://shortcuts/default/movies/",
             "icon": "special://skin/extras/icons/folder.png",
             "link": "false",
             "node": "videos"
         },
         {
-            "name": "TV Shows",
+            "name": "시리즈",
             "path": "grouping://shortcuts/default/tvshows/",
             "icon": "special://skin/extras/icons/folder.png",
             "link": "false",
             "node": "videos"
         },
         {
-            "name": "Episodes",
+            "name": "에피소드",
             "path": "grouping://shortcuts/default/episodes/",
             "icon": "special://skin/extras/icons/folder.png",
             "link": "false",
             "node": "videos"
         },
         {
-            "name": "Music",
+            "name": "음악",
             "path": "grouping://shortcuts/default/music/",
             "icon": "special://skin/extras/icons/folder.png",
             "link": "false",
             "node": "music"
         },
         {
-            "name": "Live TV and PVR",
+            "name": "실시간 TV 및 녹화",
             "path": "grouping://shortcuts/default/livetv/",
             "icon": "special://skin/extras/icons/folder.png",
             "link": "false",
             "node": "tvguide"
         },
         {
-            "name": "Radio",
+            "name": "라디오",
             "path": "grouping://shortcuts/default/radio/",
             "icon": "special://skin/extras/icons/folder.png",
             "link": "false",
@@ -807,70 +807,70 @@
     ],
     "grouping://shortcuts/default/movies/": [
         {
-            "name": "New Movies",
+            "name": "새로 추가한 영화",
             "path": "special://skin/extras/playlists/NewMovies.xsp",
             "node": "videos",
             "link": "false",
             "icon": "special://skin/extras/icons/list-ol.png"
         },
         {
-            "name": "Recent Movies",
+            "name": "최근 추가 영화",
             "path": "special://skin/extras/playlists/RecentMovies.xsp",
             "node": "videos",
             "link": "false",
             "icon": "special://skin/extras/icons/list-ol.png"
         },
         {
-            "name": "Random Movies",
+            "name": "무작위 영화",
             "path": "special://skin/extras/playlists/RandomMovies.xsp",
             "node": "videos",
             "link": "false",
             "icon": "special://skin/extras/icons/list-ol.png"
         },
         {
-            "name": "In-Progress Movies",
+            "name": "이어볼 영화",
             "path": "special://skin/extras/playlists/InProgressMovies.xsp",
             "node": "videos",
             "link": "false",
             "icon": "special://skin/extras/icons/list-ol.png"
         },
         {
-            "name": "Top Rated Movies",
+            "name": "평점 높은 영화",
             "path": "special://skin/extras/playlists/TopRatedMovies.xsp",
             "node": "videos",
             "link": "false",
             "icon": "special://skin/extras/icons/list-ol.png"
         },
         {
-            "name": "Top 250 Movies",
+            "name": "평점 상위 250편",
             "path": "special://skin/extras/playlists/Top250Movies.xsp",
             "node": "videos",
             "link": "false",
             "icon": "special://skin/extras/icons/list-ol.png"
         },
         {
-            "name": "Unwatched Movies",
+            "name": "아직 안 본 영화",
             "path": "special://skin/extras/playlists/UnwatchedMovies.xsp",
             "node": "videos",
             "link": "false",
             "icon": "special://skin/extras/icons/list-ol.png"
         },
         {
-            "name": "Movie Nodes",
+            "name": "영화 노드",
             "path": "library://video/movies/",
             "node": "videos",
             "link": "false",
             "icon": "special://skin/extras/icons/list-ol.png"
         },
         {
-            "name": "Movie Genres",
+            "name": "영화 장르",
             "path": "library://video/movies/genres.xml",
             "node": "videos",
             "link": "false",
             "icon": "special://skin/extras/icons/list-ol.png"
         },
         {
-            "name": "Movie Sets",
+            "name": "영화 시리즈 모음",
             "path": "videodb://movies/sets/",
             "node": "videos",
             "link": "false",
@@ -879,56 +879,56 @@
     ],
     "grouping://shortcuts/default/tvshows/": [
         {
-            "name": "New Tv Shows",
+            "name": "새로 추가한 시리즈",
             "icon": "DefaultRecentlyAddedMovies.png",
             "node": "videos",
             "path": "special://skin/extras/playlists/NewShows.xsp",
             "link": "false"
         },
         {
-            "name": "Recent Tv Shows",
+            "name": "최근 업데이트 시리즈",
             "icon": "DefaultMusicRecentlyPlayed.png",
             "node": "videos",
             "path": "special://skin/extras/playlists/RecentTvShows.xsp",
             "link": "false"
         },
         {
-            "name": "In-Progress",
+            "name": "이어보기",
             "icon": "special://skin/extras/icons/timer.png",
             "node": "videos",
             "path": "library://video/tvshows/inprogressshows.xml",
             "link": "false"
         },
         {
-            "name": "Random Tv Shows",
+            "name": "무작위 시리즈",
             "icon": "DefaultTVShows.png",
             "node": "videos",
             "path": "special://skin/extras/playlists/RandomTvShows.xsp",
             "link": "false"
         },
         {
-            "name": "Top Rated Tv Shows",
+            "name": "평점 높은 시리즈",
             "icon": "DefaultMusicTop100Albums.png",
             "node": "videos",
             "path": "special://skin/extras/playlists/TopRatedTvShows.xsp",
             "link": "false"
         },
         {
-            "name": "Unwatched Tv Shows",
+            "name": "아직 안 본 시리즈",
             "path": "special://skin/extras/playlists/UnwatchedTVShows.xsp",
             "node": "videos",
             "link": "false",
             "icon": "special://skin/extras/icons/list-ol.png"
         },
         {
-            "name": "Tv Show Nodes",
+            "name": "시리즈 노드",
             "icon": "special://skin/extras/icons/title.png",
             "node": "videos",
             "path": "library://video/tvshows/",
             "link": "false"
         },
         {
-            "name": "Tv Show Genres",
+            "name": "시리즈 장르",
             "icon": "DefaultGenre.png",
             "node": "videos",
             "path": "library://video/tvshows/genres.xml",
@@ -937,42 +937,42 @@
     ],
     "grouping://shortcuts/default/episodes/": [
         {
-            "name": "New Episodes",
+            "name": "새 에피소드",
             "icon": "DefaultRecentlyAddedMovies.png",
             "node": "videos",
             "path": "special://skin/extras/playlists/NewEpisodes.xsp",
             "link": "false"
         },
         {
-            "name": "Recent Episodes",
+            "name": "최근 추가 에피소드",
             "icon": "DefaultMusicRecentlyPlayed.png",
             "node": "videos",
             "path": "special://skin/extras/playlists/RecentEpisodes.xsp",
             "link": "false"
         },
         {
-            "name": "Random Episodes",
+            "name": "무작위 에피소드",
             "icon": "DefaultTVShows.png",
             "node": "videos",
             "path": "special://skin/extras/playlists/RandomEpisodes.xsp",
             "link": "false"
         },
         {
-            "name": "Unwatched Episodes",
+            "name": "아직 안 본 에피소드",
             "icon": "DefaultTVShows.png",
             "node": "videos",
             "path": "special://skin/extras/playlists/UnwatchedEpisodes.xsp",
             "link": "false"
         },
         {
-            "name": "In-Progress Episodes",
+            "name": "이어볼 에피소드",
             "icon": "special://skin/extras/icons/timer.png",
             "node": "videos",
             "path": "special://skin/extras/playlists/InProgressEpisodes.xsp",
             "link": "false"
         },
         {
-            "name": "Top Rated Episodes",
+            "name": "평점 높은 에피소드",
             "icon": "DefaultMusicTop100Albums.png",
             "node": "videos",
             "path": "special://skin/extras/playlists/TopRatedEpisodes.xsp",
@@ -981,42 +981,42 @@
     ],
     "grouping://shortcuts/default/music/": [
         {
-            "name": "New Albums",
+            "name": "새 앨범",
             "icon": "DefaultMusicRecentlyAdded.png",
             "node": "music",
             "path": "musicdb://recentlyaddedalbums/",
             "link": "false"
         },
         {
-            "name": "Recent Albums",
+            "name": "최근 추가 앨범",
             "icon": "DefaultMusicRecentlyPlayed.png",
             "node": "music",
             "path": "musicdb://recentlyplayedalbums/",
             "link": "false"
         },
         {
-            "name": "Top Albums",
+            "name": "인기 앨범",
             "icon": "DefaultMusicTop100Albums.png",
             "node": "music",
             "path": "musicdb://top100/albums/",
             "link": "false"
         },
         {
-            "name": "Random Albums",
+            "name": "무작위 앨범",
             "icon": "DefaultMusicAlbums.png",
             "node": "music",
             "path": "special://skin/extras/playlists/RandomAlbums.xsp",
             "link": "false"
         },
         {
-            "name": "Random Artists",
+            "name": "무작위 아티스트",
             "icon": "DefaultMusicArtists.png",
             "node": "music",
             "path": "special://skin/extras/playlists/RandomArtists.xsp",
             "link": "false"
         },
         {
-            "name": "Music Nodes",
+            "name": "음악 노드",
             "icon": "special://skin/extras/icons/title.png",
             "node": "music",
             "path": "library://music/",
@@ -1025,56 +1025,56 @@
     ],
     "grouping://shortcuts/default/livetv/": [
         {
-            "name": "Last Played Channels",
+            "name": "최근 시청 채널",
             "icon": "DefaultAddonPVRClient.png",
             "node": "tvguide",
             "path": "pvr://channels/tv/*?view=lastplayed",
             "link": "true"
         },
         {
-            "name": "All Channels",
+            "name": "전체 채널",
             "icon": "DefaultAddonPVRClient.png",
             "node": "tvchannels",
             "path": "pvr://channels/tv/*",
             "link": "true"
         },
         {
-            "name": "Grouped Channels",
+            "name": "채널 그룹",
             "icon": "DefaultAddonPVRClient.png",
             "node": "tvchannels",
             "path": "pvr://channels/tv/",
             "link": "true"
         },
         {
-            "name": "Active Recordings",
+            "name": "녹화 목록",
             "icon": "DefaultAddonPVRClient.png",
             "node": "tvrecordings",
             "path": "pvr://recordings/tv/active?view=flat",
             "link": "true"
         },
         {
-            "name": "Grouped Active Recordings",
+            "name": "녹화 그룹",
             "icon": "DefaultAddonPVRClient.png",
             "node": "tvrecordings",
             "path": "pvr://recordings/tv/active?view=grouped",
             "link": "true"
         },
         {
-            "name": "Deleted Recordings",
+            "name": "삭제된 녹화",
             "icon": "DefaultAddonPVRClient.png",
             "node": "tvrecordings",
             "path": "pvr://recordings/tv/deleted?view=flat",
             "link": "true"
         },
         {
-            "name": "Grouped Deleted Recordings",
+            "name": "삭제된 녹화 그룹",
             "icon": "DefaultAddonPVRClient.png",
             "node": "tvrecordings",
             "path": "pvr://recordings/tv/deleted?view=grouped",
             "link": "true"
         },
         {
-            "name": "Timers",
+            "name": "녹화 예약",
             "icon": "DefaultAddonPVRClient.png",
             "node": "tvtimers",
             "path": "pvr://timers/tv/timers",
@@ -1083,49 +1083,49 @@
     ],
     "grouping://shortcuts/default/radio/": [
         {
-            "name": "Radio Last Played Channels",
+            "name": "최근 청취 라디오",
             "icon": "DefaultAddonPVRClient.png",
             "node": "radioguide",
             "path": "pvr://channels/radio/*?view=lastplayed",
             "link": "false"
         },
         {
-            "name": "Radio All Channels",
+            "name": "전체 라디오 채널",
             "icon": "DefaultAddonPVRClient.png",
             "node": "radiochannels",
             "path": "pvr://channels/radio/*",
             "link": "false"
         },
         {
-            "name": "Radio Active Recordings",
+            "name": "라디오 녹음 목록",
             "icon": "DefaultAddonPVRClient.png",
             "node": "radiorecordings",
             "path": "pvr://recordings/radio/active?view=flat",
             "link": "false"
         },
         {
-            "name": "Radio Grouped Active Recordings",
+            "name": "라디오 녹음 그룹",
             "icon": "DefaultAddonPVRClient.png",
             "node": "radiorecordings",
             "path": "pvr://recordings/radio/active?view=grouped",
             "link": "false"
         },
         {
-            "name": "Radio Deleted Recordings",
+            "name": "삭제된 라디오 녹음",
             "icon": "DefaultAddonPVRClient.png",
             "node": "radiorecordings",
             "path": "pvr://recordings/radio/deleted?view=flat",
             "link": "false"
         },
         {
-            "name": "Radio Grouped Deleted Recordings",
+            "name": "삭제된 라디오 녹음 그룹",
             "icon": "DefaultAddonPVRClient.png",
             "node": "radiorecordings",
             "path": "pvr://recordings/radio/deleted?view=grouped",
             "link": "false"
         },
         {
-            "name": "Radio Timers",
+            "name": "라디오 녹음 예약",
             "icon": "DefaultAddonPVRClient.png",
             "node": "radiotimers",
             "path": "pvr://timers/radio/timers",
@@ -1134,84 +1134,84 @@
     ],
     "grouping://shortcuts/links/pvr/":[
         {
-            "name": "TV Channels",
+            "name": "TV 채널",
             "path": "ActivateWindow(TVChannels)",
             "node": "tvguide",
             "link": "true",
             "icon": "special://skin/extras/icons/livetv.png"
         },
         {
-            "name": "TV Guide",
+            "name": "TV 편성표",
             "path": "ActivateWindow(TVGuide)",
             "node": "tvguide",
             "link": "true",
             "icon": "special://skin/extras/icons/livetv.png"
         },
         {
-            "name": "TV Recordings",
+            "name": "TV 녹화",
             "path": "ActivateWindow(TVRecordings)",
             "node": "tvguide",
             "link": "true",
             "icon": "special://skin/extras/icons/livetv.png"
         },
         {
-            "name": "TV Timers",
+            "name": "TV 녹화 예약",
             "path": "ActivateWindow(TVTimers)",
             "node": "tvguide",
             "link": "true",
             "icon": "special://skin/extras/icons/livetv.png"
         },
         {
-            "name": "TV TimerRules",
+            "name": "TV 반복 녹화 규칙",
             "path": "ActivateWindow(TVTimerRules)",
             "node": "tvguide",
             "link": "true",
             "icon": "special://skin/extras/icons/livetv.png"
         },
         {
-            "name": "TV Search",
+            "name": "TV 검색",
             "path": "ActivateWindow(TVSearch)",
             "node": "tvguide",
             "link": "true",
             "icon": "special://skin/extras/icons/livetv.png"
         },
         {
-            "name": "Radio Channels",
+            "name": "라디오 채널",
             "path": "ActivateWindow(RadioChannels)",
             "node": "tvguide",
             "link": "true",
             "icon": "special://skin/extras/icons/radio.png"
         },
         {
-            "name": "Radio Guide",
+            "name": "라디오 편성표",
             "path": "ActivateWindow(RadioGuide)",
             "node": "tvguide",
             "link": "true",
             "icon": "special://skin/extras/icons/radio.png"
         },
         {
-            "name": "Radio Recordings",
+            "name": "라디오 녹음",
             "path": "ActivateWindow(RadioRecordings)",
             "node": "tvguide",
             "link": "true",
             "icon": "special://skin/extras/icons/radio.png"
         },
         {
-            "name": "Radio Timers",
+            "name": "라디오 녹음 예약",
             "path": "ActivateWindow(RadioTimers)",
             "node": "tvguide",
             "link": "true",
             "icon": "special://skin/extras/icons/radio.png"
         },
         {
-            "name": "Radio TimerRules",
+            "name": "라디오 반복 녹음 규칙",
             "path": "ActivateWindow(RadioTimerRules)",
             "node": "tvguide",
             "link": "true",
             "icon": "special://skin/extras/icons/radio.png"
         },
         {
-            "name": "Radio Search",
+            "name": "라디오 검색",
             "path": "ActivateWindow(RadioSearch)",
             "node": "tvguide",
             "link": "true",
@@ -1220,117 +1220,117 @@
     ],
     "grouping://shortcuts/links/kodi/": [
         {
-            "name": "Options",
+            "name": "옵션",
             "path": "ActivateWindow(1170)",
             "icon": "special://skin/extras/icons/bars.png",
             "link": "true"
         },
         {
-            "name": "File Manager",
+            "name": "파일 관리자",
             "path": "ActivateWindow(filemanager)",
             "icon": "special://skin/extras/icons/filebox.png",
             "link": "true"
         },
         {
-            "name": "Add-ons Browser",
+            "name": "애드온 탐색",
             "path": "ActivateWindow(addonbrowser)",
             "icon": "special://skin/extras/icons/addons.png",
             "link": "true"
         },
         {
-            "name": "System Info",
+            "name": "시스템 정보",
             "path": "ActivateWindow(systeminfo)",
             "icon": "special://skin/extras/icons/sysinfo.png",
             "link": "true"
         },
         {
-            "name": "Weather",
+            "name": "날씨",
             "path": "ActivateWindow(weather)",
             "icon": "special://skin/extras/icons/sun2.png",
             "link": "true"
         },
         {
-            "name": "Weather",
+            "name": "날씨",
             "path": "ActivateWindow(1161)",
             "icon": "special://skin/extras/icons/cloud-sun-rain.png",
             "link": "true"
         },
         {
-            "name": "Favourites",
+            "name": "즐겨찾기",
             "path": "ActivateWindow(1160)",
             "icon": "special://skin/extras/icons/heart.png",
             "link": "true"
         },
         {
-            "name": "Skin Settings",
+            "name": "스킨 설정",
             "path": "ActivateWindow(skinsettings)",
             "icon": "special://skin/extras/icons/paintbrush.png",
             "link": "true"
         },
         {
-            "name": "Interface Settings",
+            "name": "인터페이스 설정",
             "path": "ActivateWindow(interfacesettings)",
             "icon": "special://skin/extras/icons/skinsettings.png",
             "link": "true"
         },
         {
-            "name": "Event Log",
+            "name": "이벤트 기록",
             "path": "ActivateWindow(eventlog)",
             "icon": "special://skin/extras/icons/list-check.png",
             "link": "true"
         },
         {
             "icon": "special://skin/extras/icons/configure.png",
-            "name": "Configure TMDbHelper",
+            "name": "TMDbHelper 설정",
             "path": "RunPlugin(plugin://plugin.video.themoviedb.helper/?info=dir_settings)",
             "link": "true"
         }
     ],
     "grouping://shortcuts/widgets/experimental/": [
         {
-            "name": "Custom Submenu",
+            "name": "사용자 지정 하위 메뉴",
             "path": "Custom_Submenu",
             "icon": "special://skin/extras/icons/list-ol.png",
             "link": "true"
         },
         {
-            "name": "Stacked Folder",
+            "name": "폴더 묶음",
             "path": "Stacked_Folder",
             "icon": "special://skin/extras/icons/list-ol.png",
             "link": "true"
         },
         {
-            "name": "Stacked Movie Recommendations",
+            "name": "영화 추천 묶음",
             "path": "Stacked_Movie_Recommendations",
             "icon": "special://skin/extras/icons/list-ol.png",
             "link": "true"
         },
         {
-            "name": "Stacked TV Show Recommendations",
+            "name": "시리즈 추천 묶음",
             "path": "Stacked_TVShows_Recommendations",
             "icon": "special://skin/extras/icons/list-ol.png",
             "link": "true"
         },
         {
-            "name": "Stacked Movie Year",
+            "name": "영화 연도 묶음",
             "path": "Stacked_Movie_Year",
             "icon": "special://skin/extras/icons/list-ol.png",
             "link": "true"
         },
         {
-            "name": "Stacked TV Show Year",
+            "name": "시리즈 연도 묶음",
             "path": "Stacked_TVShows_Year",
             "icon": "special://skin/extras/icons/list-ol.png",
             "link": "true"
         },
         {
-            "name": "Stacked Movie Genre",
+            "name": "영화 장르 묶음",
             "path": "Stacked_Movie_Genre",
             "icon": "special://skin/extras/icons/list-ol.png",
             "link": "true"
         },
         {
-            "name": "Stacked TV Show Genre",
+            "name": "시리즈 장르 묶음",
             "path": "Stacked_TVShows_Genre",
             "icon": "special://skin/extras/icons/list-ol.png",
             "link": "true"
@@ -1338,98 +1338,98 @@
     ],
     "grouping://shortcuts/links/commands/": [
         {
-            "name": "Hub Submenu",
+            "name": "메뉴 화면 하위 메뉴",
             "path": "ActivateWindow(1181)",
             "icon": "special://skin/extras/icons/bars.png",
             "link": "true"
         },
         {
-            "name": "Switch user",
+            "name": "사용자 전환",
             "path": "ActivateWindow(1195)",
             "icon": "special://skin/extras/icons/address-card.png",
             "link": "true"
         },
         {
-            "name": "Log-off",
+            "name": "로그아웃",
             "path": "System.LogOff",
             "icon": "special://skin/extras/icons/logout.png",
             "link": "true"
         },
         {
-            "name": "Quit",
+            "name": "Kodi 종료",
             "path": "Quit",
             "icon": "special://skin/extras/icons/right-to-bracket.png",
             "link": "true"
         },
         {
-            "name": "Screensaver",
+            "name": "화면 보호기",
             "path": "ActivateScreensaver",
             "icon": "special://skin/extras/icons/desktop.png",
             "link": "true"
         },
         {
-            "name": "Power",
+            "name": "종료 메뉴",
             "path": "Powerdown",
             "icon": "special://skin/extras/icons/power.png",
             "link": "true"
         },
         {
-            "name": "Minimise",
+            "name": "최소화",
             "path": "Minimize",
             "icon": "special://skin/extras/icons/minimize.png",
             "link": "true"
         },
         {
-            "name": "Reboot",
+            "name": "다시 시작",
             "path": "Reboot",
             "icon": "special://skin/extras/icons/recycle.png",
             "link": "true"
         },
         {
-            "name": "Reboot to Android",
+            "name": "안드로이드로 다시 시작",
             "path": "RebootToAndroid",
             "icon": "special://skin/extras/icons/recycle.png",
             "link": "true",
             "rule": "System.Platform.Linux"
         },
         {
-            "name": "Reload Skin",
+            "name": "스킨 다시 불러오기",
             "path": "ReloadSkin",
             "icon": "special://skin/extras/icons/rotate.png",
             "link": "true"
         },
         {
-            "name": "Suspend",
+            "name": "절전",
             "path": "Suspend",
             "icon": "special://skin/extras/icons/bed.png",
             "link": "true"
         },
         {
-            "name": "Eject",
+            "name": "꺼내기",
             "path": "EjectTray()",
             "icon": "special://skin/extras/icons/eject.png",
             "link": "true"
         },
         {
-            "name": "Clean Video Library",
+            "name": "동영상 라이브러리 정리",
             "path": "CleanLibrary(video)",
             "icon": "special://skin/extras/icons/soap.png",
             "link": "true"
         },
         {
-            "name": "Clean Music Library",
+            "name": "음악 라이브러리 정리",
             "path": "CleanLibrary(music)",
             "icon": "special://skin/extras/icons/soap.png",
             "link": "true"
         },
         {
-            "name": "Update Video Library",
+            "name": "동영상 라이브러리 업데이트",
             "path": "UpdateLibrary(video)",
             "icon": "special://skin/extras/icons/chart-pie.png",
             "link": "true"
         },
         {
-            "name": "Update Music Library",
+            "name": "음악 라이브러리 업데이트",
             "path": "UpdateLibrary(music)",
             "icon": "special://skin/extras/icons/chart-pie.png",
             "link": "true"

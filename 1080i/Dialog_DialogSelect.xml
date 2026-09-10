@@ -597,7 +597,7 @@
         <include content="Button_Dialog">
             <param name="id">9004</param>
             <param name="groupid">9104</param>
-            <label>Preview</label>
+            <label>미리보기</label>
             <param name="icon">special://skin/extras/icons/images.png</param>
             <visible>Control.IsEnabled(6) + Control.IsVisible(6)</visible>
             <onclick>SetFocus(99001)</onclick>

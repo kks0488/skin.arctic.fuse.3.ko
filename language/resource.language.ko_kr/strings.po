@@ -1,0 +1,2445 @@
+# Kodi Media Center language file
+# Addon Name: Arctic Fuse 3
+# Addon Name: skin.arctic.fuse.3
+# Addon Provider: jurialmunkey
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.1\n"
+
+msgctxt "#31000"
+msgid "Live TV / PVR"
+msgstr "실시간 TV / 녹화"
+
+#: /1080i/Includes_MediaFilter.xml
+msgctxt "#31001"
+msgid "In-Progress Episodes"
+msgstr "이어볼 에피소드"
+
+#: /1080i/Includes_Views_Combined.xml
+msgctxt "#31002"
+msgid "Combined Square"
+msgstr "통합 정사각형"
+
+#: /1080i/Includes_Views_Combined.xml
+msgctxt "#31003"
+msgid "Combined Landscape"
+msgstr "통합 가로형"
+
+#: /1080i/Includes_Views_Combined.xml
+msgctxt "#31004"
+msgid "Combined Poster"
+msgstr "통합 포스터"
+
+#: /1080i/Includes_Views_Combined.xml
+msgctxt "#31005"
+msgid "Combined Circle"
+msgstr "통합 원형"
+
+#: /1080i/Includes_Views_Combined.xml
+msgctxt "#31006"
+msgid "Combined Board"
+msgstr "통합 보드"
+
+#: /1080i/Dialog_DialogSelect.xml
+msgctxt "#31007"
+msgid "Row"
+msgstr "가로 목록"
+
+#: /1080i/Dialog_DialogSelect.xml
+msgctxt "#31008"
+msgid "Wall"
+msgstr "격자 목록"
+
+#: /1080i/Includes_Shortcuts_Window.xml
+msgctxt "#31009"
+msgid "Widget Customisation"
+msgstr "위젯 꾸미기"
+
+#: /1080i/Includes_Hubs.xml
+msgctxt "#31010"
+msgid "Program"
+msgstr "프로그램"
+
+#: /1080i/Includes_Hubs.xml
+msgctxt "#31011"
+msgid "Picture"
+msgstr "사진"
+
+#: /1080i/Includes_Hubs.xml
+msgctxt "#31012"
+msgid "Recent"
+msgstr "최근"
+
+#: /1080i/Includes_Views_PVR.xml
+msgctxt "#31013"
+msgid "List Standard"
+msgstr "기본 목록"
+
+#: /1080i/Includes_Views_PVR.xml
+msgctxt "#31014"
+msgid "List Info"
+msgstr "정보 목록"
+
+msgctxt "#31015"
+msgid "Order"
+msgstr "순서"
+
+msgctxt "#31016"
+msgid "Sort by"
+msgstr "정렬 기준"
+
+#: /1080i/Includes_Views_PVR.xml
+msgctxt "#31017"
+msgid "List Details"
+msgstr "상세 목록"
+
+msgctxt "#31018"
+msgid "Recommendations"
+msgstr "추천"
+
+#: /1080i/Includes_Views_PVR.xml
+msgctxt "#31019"
+msgid "List Planner"
+msgstr "일정 목록"
+
+#: /1080i/Includes_Views_PVR.xml
+msgctxt "#31020"
+msgid "List Outline"
+msgstr "개요 목록"
+
+#: /1080i/Includes_Views_Combined.xml
+msgctxt "#31021"
+msgid "Combined Expanded"
+msgstr "통합 확장형"
+
+msgctxt "#31022"
+msgid "items"
+msgstr "개 항목"
+
+msgctxt "#31023"
+msgid "Loading"
+msgstr "불러오는 중"
+
+msgctxt "#31024"
+msgid "Critics Consensus"
+msgstr "평론가 총평"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31025"
+msgid "Item"
+msgstr "항목"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31026"
+msgid "Hub"
+msgstr "메뉴 화면"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31027"
+msgid "Focus widgets on startup"
+msgstr "시작할 때 위젯 선택"
+
+msgctxt "#31028"
+msgid "Outline"
+msgstr "개요"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31029"
+msgid "Images"
+msgstr "이미지"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31030"
+msgid "Critics"
+msgstr "평론가"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31031"
+msgid "HDR type"
+msgstr "HDR 종류"
+
+#: /1080i/DialogPVRChannelManager.xml
+msgctxt "#31032"
+msgid "Apply"
+msgstr "적용"
+
+msgctxt "#31033"
+msgid "People"
+msgstr "인물"
+
+msgctxt "#31034"
+msgid "Cast member"
+msgstr "출연진"
+
+msgctxt "#31035"
+msgid "Crew member"
+msgstr "제작진"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31036"
+msgid "Limited widgets use Show More folder item"
+msgstr "개수가 제한된 위젯에 더 보기 항목 표시"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31037"
+msgid "Side submenu"
+msgstr "측면 하위 메뉴"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31038"
+msgid "Directing"
+msgstr "연출"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31039"
+msgid "Writing"
+msgstr "각본"
+
+#: /1080i/Includes_Views_List.xml
+msgctxt "#31040"
+msgid "List Flixart 2"
+msgstr "플릭스아트 목록 2"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31041"
+msgid "Similar"
+msgstr "비슷한 작품"
+
+#: /1080i/Dialog_DialogShortcuts.xml
+msgctxt "#31042"
+msgid "Jump to widget"
+msgstr "위젯으로 이동"
+
+#: /1080i/Custom_1115_Window_Shortcuts.xml
+msgctxt "#31043"
+msgid "Tray"
+msgstr "도구 메뉴"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31044"
+msgid "Viewtypes"
+msgstr "보기 방식"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31045"
+msgid "Landscape"
+msgstr "가로형"
+
+#: /1080i/Includes_Search.xml
+msgctxt "#31046"
+msgid "No Results"
+msgstr "결과 없음"
+
+#: /1080i/Custom_1154_Dialog_SearchDiscover_Sort.xml
+msgctxt "#31047"
+msgid "Popularity"
+msgstr "인기도"
+
+#: /1080i/Custom_1115_Window_Shortcuts.xml
+msgctxt "#31048"
+msgid "tiles"
+msgstr "개 타일"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31049"
+msgid "Customise shortcuts and widgets"
+msgstr "바로가기와 위젯 편집"
+
+#: /1080i/Includes_Search.xml
+msgctxt "#31050"
+msgid "Crew"
+msgstr "제작진"
+
+#: /1080i/Custom_1153_Dialog_SearchDiscover_Actors.xml
+msgctxt "#31051"
+msgid "Person"
+msgstr "인물"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31052"
+msgid "Sound"
+msgstr "음향"
+
+msgctxt "#31053"
+msgid "Profile"
+msgstr "프로필"
+
+msgctxt "#31054"
+msgid "Liked by"
+msgstr "좋아요"
+
+msgctxt "#31055"
+msgid "out of"
+msgstr "전체 중"
+
+msgctxt "#31056"
+msgid "critics"
+msgstr "평론가"
+
+msgctxt "#31057"
+msgid "Years Old"
+msgstr "세"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31058"
+msgid "Wrap"
+msgstr "끝에서 처음으로 이동"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31059"
+msgid "Side"
+msgstr "측면"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31060"
+msgid "Slide"
+msgstr "슬라이드"
+
+#: /shortcuts/template.xml
+msgctxt "#31061"
+msgid "User rating"
+msgstr "사용자 평점"
+
+#: /shortcuts/template.xml
+msgctxt "#31062"
+msgid "Playlist order"
+msgstr "재생목록 순서"
+
+#: /shortcuts/template.xml
+msgctxt "#31063"
+msgid "Watched episodes"
+msgstr "시청한 에피소드"
+
+msgctxt "#31064"
+msgid "Awards"
+msgstr "수상 내역"
+
+msgctxt "#31065"
+msgid "Creator"
+msgstr "기획"
+
+#: /1080i/Includes_Search.xml
+msgctxt "#31066"
+msgid "Discover"
+msgstr "둘러보기"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31067"
+msgid "Cinematography"
+msgstr "촬영"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31068"
+msgid "Experimental"
+msgstr "실험 기능"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31069"
+msgid "Background video"
+msgstr "배경 동영상"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31070"
+msgid "Fixed aspect ratio"
+msgstr "화면 비율 고정"
+
+msgctxt "#31071"
+msgid "Playback Speed"
+msgstr "재생 속도"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31072"
+msgid "Art Department"
+msgstr "미술"
+
+msgctxt "#31073"
+msgid "mins"
+msgstr "분"
+
+msgctxt "#31074"
+msgid "hr"
+msgstr "시간"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31075"
+msgid "Editing"
+msgstr "편집"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31076"
+msgid "Starring"
+msgstr "주연"
+
+msgctxt "#31077"
+msgid "More Information"
+msgstr "상세 정보"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31078"
+msgid "Use fake label textboxes"
+msgstr "레이블 대체 텍스트 상자 사용"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31079"
+msgid "improves performance on Omega"
+msgstr "Omega에서 성능 향상"
+
+#: /1080i/Dialog_DialogCustom.xml
+msgctxt "#31080"
+msgid "Button"
+msgstr "버튼"
+
+#: /1080i/Dialog_DialogCustom.xml
+msgctxt "#31081"
+msgid "Others"
+msgstr "기타"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31082"
+msgid "Ratings style"
+msgstr "평점 표시 방식"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31083"
+msgid "Combined"
+msgstr "통합형"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31084"
+msgid "Preload hubs during startup initialisation"
+msgstr "시작할 때 메뉴 화면 미리 불러오기"
+
+msgctxt "#31085"
+msgid "Live TV"
+msgstr "실시간 TV"
+
+msgctxt "#31086"
+msgid "Customise options"
+msgstr "옵션 편집"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31087"
+msgid "Game Saves"
+msgstr "게임 저장 파일"
+
+#: /1080i/VideoOSDBookmarks.xml
+msgctxt "#31088"
+msgid "No bookmarks"
+msgstr "책갈피 없음"
+
+#: /1080i/VideoOSDBookmarks.xml
+msgctxt "#31089"
+msgid "Add a bookmark here"
+msgstr "여기에 책갈피 추가"
+
+msgctxt "#31090"
+msgid "In-Progress"
+msgstr "이어보기"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31091"
+msgid "In-Game Saves"
+msgstr "게임 내 저장"
+
+#: /1080i/SkinSettings.xml /1080i/Includes_Shortcuts_Window.xml
+msgctxt "#31092"
+msgid "Detailed information"
+msgstr "상세 정보"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31093"
+msgid "Cycle extra fanart"
+msgstr "추가 배경 이미지 순환"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31094"
+msgid "Mouse pointer size"
+msgstr "마우스 포인터 크기"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31095"
+msgid "Translations"
+msgstr "번역"
+
+#: /1080i/Dialog_DialogPictureInfo.xml
+msgctxt "#31096"
+msgid "plays"
+msgstr "회 재생"
+
+#: /1080i/Includes_DialogInfo.xml
+msgctxt "#31097"
+msgid "File details"
+msgstr "파일 정보"
+
+#: /1080i/SkinSettings.xml /1080i/Includes_Items.xml
+msgctxt "#31098"
+msgid "Gallery"
+msgstr "갤러리"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31099"
+msgid "Last aired"
+msgstr "최근 방송일"
+
+#: /1080i/Includes_Views_Row.xml
+msgctxt "#31100"
+msgid "Row Board"
+msgstr "보드 가로 목록"
+
+#: /1080i/Includes_Views_Wall.xml
+msgctxt "#31101"
+msgid "Wall Board"
+msgstr "보드 격자 목록"
+
+#: /1080i/Includes_DialogInfo.xml
+msgctxt "#31102"
+msgid "Extension"
+msgstr "확장 기능"
+
+msgctxt "#31103"
+msgid "Widgets"
+msgstr "위젯"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31104"
+msgid "Position"
+msgstr "위치"
+
+msgctxt "#31105"
+msgid "Spotlight"
+msgstr "주요 작품"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31106"
+msgid "Top"
+msgstr "상단"
+
+#: /1080i/Dialog_DialogGameControllers.xml
+msgctxt "#31107"
+msgid "Edit buttons"
+msgstr "버튼 편집"
+
+msgctxt "#31108"
+msgid "Collections"
+msgstr "시리즈 모음"
+
+#: /1080i/Dialog_DialogPVRGroupManager.xml
+msgctxt "#31109"
+msgid "Edit group"
+msgstr "그룹 편집"
+
+#: /1080i/Includes_Info.xml
+msgctxt "#31110"
+msgid "Starts at"
+msgstr "시작 시각"
+
+msgctxt "#31111"
+msgid "Row Poster"
+msgstr "포스터 가로 목록"
+
+msgctxt "#31112"
+msgid "Row Landscape"
+msgstr "가로형 가로 목록"
+
+msgctxt "#31113"
+msgid "Row Square"
+msgstr "정사각형 가로 목록"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31114"
+msgid "Hubs"
+msgstr "메뉴 화면"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31115"
+msgid "Australian summer"
+msgstr "호주의 여름"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31116"
+msgid "Winter frost"
+msgstr "겨울 서리"
+
+#: /1080i/DialogPlayerProcessInfo.xml
+msgctxt "#31117"
+msgid "RAM"
+msgstr "메모리"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31118"
+msgid "Expanded"
+msgstr "확장형"
+
+#: /1080i/DialogPlayerProcessInfo.xml
+msgctxt "#31119"
+msgid "EOTF and Gamut"
+msgstr "EOTF 및 색역"
+
+#: /1080i/Includes_Views_List.xml
+msgctxt "#31120"
+msgid "List Basic"
+msgstr "간단 목록"
+
+#: /1080i/Dialog_FileBrowser.xml
+msgctxt "#31121"
+msgid "Mirror"
+msgstr "좌우 반전"
+
+#: /1080i/Includes_MediaFilter.xml
+msgctxt "#31122"
+msgid "Watchlist"
+msgstr "보고 싶은 작품"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31123"
+msgid "Plot line"
+msgstr "줄거리 한 줄"
+
+msgctxt "#31124"
+msgid "Indicator"
+msgstr "표시 아이콘"
+
+msgctxt "#31125"
+msgid "Invert Text Colour"
+msgstr "글자색 반전"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31126"
+msgid "Plotline"
+msgstr "줄거리"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31127"
+msgid "Genre colours"
+msgstr "장르 색상"
+
+#: /1080i/Includes_MediaFilter.xml
+msgctxt "#31128"
+msgid "Trending"
+msgstr "지금 인기 있는 작품"
+
+msgctxt "#31129"
+msgid "Up next in"
+msgstr "다음 재생까지"
+
+msgctxt "#31130"
+msgid "seconds"
+msgstr "초"
+
+msgctxt "#31131"
+msgid "Continue watching in"
+msgstr "이어보기까지"
+
+#: /shortcuts/skinvariables-splash.json
+msgctxt "#31132"
+msgid "Preloading Hubs"
+msgstr "메뉴 화면 준비 중"
+
+#: /shortcuts/skinvariables-splash.json
+msgctxt "#31133"
+msgid "Loading Widgets"
+msgstr "위젯 불러오는 중"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31134"
+msgid "Playing"
+msgstr "재생 중"
+
+#: /1080i/Includes_Views.xml
+msgctxt "#31135"
+msgid "Page"
+msgstr "페이지"
+
+#: /1080i/Includes_Labels.xml For Spotlight to allow shorter labels which fit
+msgctxt "#31136"
+msgid "Browse"
+msgstr "둘러보기"
+
+#: /1080i/SkinSettings.xml /1080i/Includes_Labels.xml
+msgctxt "#31137"
+msgid "Detailed"
+msgstr "상세"
+
+msgctxt "#31138"
+msgid "Aqua Classic"
+msgstr "아쿠아 클래식"
+
+msgctxt "#31139"
+msgid "Tropical Sunset"
+msgstr "열대의 노을"
+
+msgctxt "#31140"
+msgid "Miami Vaporwave"
+msgstr "마이애미 베이퍼웨이브"
+
+msgctxt "#31141"
+msgid "Plain Monochrome"
+msgstr "기본 단색"
+
+msgctxt "#31142"
+msgid "Total Duration"
+msgstr "전체 재생 시간"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31143"
+msgid "Classic"
+msgstr "클래식"
+
+#: /1080i/Includes_Labels.xml For Spotlight to allow shorter labels which fit
+msgctxt "#31144"
+msgid "Play"
+msgstr "재생"
+
+msgctxt "#31145"
+msgid "Initialising Skin"
+msgstr "스킨 준비 중"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31146"
+msgid "Onyx"
+msgstr "오닉스"
+
+#: /1080i/Includes_Shortcuts_Window.xml
+msgctxt "#31147"
+msgid "More"
+msgstr "더 보기"
+
+#: /1080i/Dialog_DialogCustom.xml
+msgctxt "#31148"
+msgid "Black Onyx"
+msgstr "블랙 오닉스"
+
+#: /1080i/Settings.xml /1080i/SettingsSystemInfo.xml
+msgctxt "#31149"
+msgid "Used memory"
+msgstr "사용 중인 메모리"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31150"
+msgid "Categories"
+msgstr "카테고리"
+
+#: /1080i/Settings.xml
+msgctxt "#31151"
+msgid "Customise video info"
+msgstr "영상 정보 화면 편집"
+
+#: /1080i/AddonBrowser.xml
+msgctxt "#31152"
+msgid "Running add-ons"
+msgstr "실행 중인 애드온"
+
+#: /1080i/Includes_Search.xml
+msgctxt "#31153"
+msgid "Results for"
+msgstr "검색 결과"
+
+msgctxt "#31154"
+msgid "Misc options"
+msgstr "기타 옵션"
+
+#: /1080i/Includes_Search.xml
+msgctxt "#31155"
+msgid "Decades"
+msgstr "연대"
+
+#: /1080i/Includes_Keyboard_Mini.xml
+msgctxt "#31158"
+msgid "Layout"
+msgstr "화면 구성"
+
+#: /1080i/Custom_1120_VideoInfo_Details.xml
+msgctxt "#31159"
+msgid "Version"
+msgstr "버전"
+
+msgctxt "#31160"
+msgid "REC"
+msgstr "녹화"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31162"
+msgid "Hide"
+msgstr "숨기기"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31165"
+msgid "Seekbar behaviour on delayed pause"
+msgstr "일시정지 지연 시 탐색 막대 동작"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31166"
+msgid "Back"
+msgstr "뒤로"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31167"
+msgid "Logo"
+msgstr "로고"
+
+#: /1080i/Includes_Views_List.xml
+msgctxt "#31168"
+msgid "List Square"
+msgstr "정사각형 목록"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31169"
+msgid "Birthday"
+msgstr "생일"
+
+#: /1080i/Custom_1115_Dialog_Shortcuts_Window.xml
+msgctxt "#31170"
+msgid "Note"
+msgstr "참고"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31171"
+msgid "On-screen keyboard size"
+msgstr "화면 키보드 크기"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31173"
+msgid "Scroll"
+msgstr "스크롤"
+
+msgctxt "#31174"
+msgid "Navigation"
+msgstr "메뉴 이동"
+
+msgctxt "#31177"
+msgid "Menus"
+msgstr "메뉴"
+
+#: /1080i/Includes_Search.xml
+msgctxt "#31179"
+msgid "Keyword"
+msgstr "검색어"
+
+#: /1080i/Includes_DialogInfo.xml
+msgctxt "#31181"
+msgid "Scheduled"
+msgstr "예약됨"
+
+#: /1080i/Includes_Info.xml
+msgctxt "#31183"
+msgid "times"
+msgstr "회"
+
+#: /1080i/Includes_Info.xml
+msgctxt "#31184"
+msgid "Ends"
+msgstr "종료"
+
+msgctxt "#31185"
+msgid "Autoscroll"
+msgstr "자동 스크롤"
+
+msgctxt "#31186"
+msgid "Behaviour"
+msgstr "동작"
+
+msgctxt "#31187"
+msgid "Autoscroll time interval"
+msgstr "자동 스크롤 간격"
+
+msgctxt "#31188"
+msgid "Limit"
+msgstr "표시 개수"
+
+msgctxt "#31189"
+msgid "Autoclose OSD after X seconds"
+msgstr "재생 메뉴 자동 닫기 대기 시간(초)"
+
+#: /1080i/Includes_Info.xml
+msgctxt "#31194"
+msgid "Album duration"
+msgstr "앨범 재생 시간"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31195"
+msgid "Light"
+msgstr "밝게"
+
+msgctxt "#31196"
+msgid "Up Next"
+msgstr "다음 재생"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31197"
+msgid "Skin theme"
+msgstr "스킨 테마"
+
+#: /1080i/Includes_Info.xml
+msgctxt "#31198"
+msgid "Track duration"
+msgstr "곡 재생 시간"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31199"
+msgid "Date and time"
+msgstr "날짜와 시간"
+
+#: /1080i/Includes_Info.xml
+msgctxt "#31200"
+msgid "Added on"
+msgstr "추가일"
+
+msgctxt "#31202"
+msgid "Ratings"
+msgstr "평점"
+
+msgctxt "#31203"
+msgid "Customise"
+msgstr "꾸미기"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31204"
+msgid "Customise dialog background"
+msgstr "대화 상자 배경 설정"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31205"
+msgid "Codecs and providers"
+msgstr "코덱 및 제공자"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31206"
+msgid "Item count"
+msgstr "항목 수"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31207"
+msgid "Codecs"
+msgstr "코덱"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31208"
+msgid "Header"
+msgstr "상단 정보"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31209"
+msgid "Boxes"
+msgstr "상자"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31210"
+msgid "Series Premiere"
+msgstr "시리즈 첫 방송"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31211"
+msgid "Season Premiere"
+msgstr "시즌 첫 방송"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31212"
+msgid "Mid-Season Premiere"
+msgstr "시즌 후반 첫 방송"
+
+msgctxt "#31213"
+msgid "Visualisation settings"
+msgstr "시각화 설정"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31214"
+msgid "Series Finale"
+msgstr "시리즈 최종회"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31215"
+msgid "Season Finale"
+msgstr "시즌 최종회"
+
+msgctxt "#31216"
+msgid "Video decoder"
+msgstr "영상 디코더"
+
+msgctxt "#31217"
+msgid "Pixel format"
+msgstr "픽셀 형식"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31218"
+msgid "Mid-Season Finale"
+msgstr "시즌 전반 최종회"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31220"
+msgid "Purple"
+msgstr "보라"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31221"
+msgid "Slate"
+msgstr "청회색"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31222"
+msgid "Coal"
+msgstr "먹색"
+
+msgctxt "#31223"
+msgid "Gridlines"
+msgstr "격자선"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31224"
+msgid "Pink"
+msgstr "분홍"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31225"
+msgid "Chalk"
+msgstr "백색"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31226"
+msgid "Blush"
+msgstr "연분홍"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31227"
+msgid "Premiere"
+msgstr "첫 공개"
+
+#: /1080i/Custom_1115_Dialog_ColourPresets.xml
+msgctxt "#31228"
+msgid "Aqua"
+msgstr "아쿠아"
+
+#: /1080i/Custom_1115_Dialog_ColourPresets.xml
+msgctxt "#31229"
+msgid "Vaporwave"
+msgstr "베이퍼웨이브"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31230"
+msgid "Calendar"
+msgstr "달력"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31231"
+msgid "Customise highlight colours"
+msgstr "강조 색상 설정"
+
+#: /1080i/Custom_1111_Dialog_ColourPicker.xml
+msgctxt "#31232"
+msgid "Gradient"
+msgstr "그라데이션"
+
+msgctxt "#31233"
+msgid "Seek to"
+msgstr "재생 위치 이동"
+
+msgctxt "#31234"
+msgid "Customise indicators"
+msgstr "표시 아이콘 설정"
+
+msgctxt "#31235"
+msgid "Indicators"
+msgstr "표시 아이콘"
+
+msgctxt "#31236"
+msgid "Collection"
+msgstr "시리즈 모음"
+
+msgctxt "#31237"
+msgid "Progress"
+msgstr "진행 상태"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31238"
+msgid "Coral"
+msgstr "산호색"
+
+msgctxt "#31239"
+msgid "Footer"
+msgstr "하단 정보"
+
+#: /1080i/Custom_1115_Dialog_ColourPresets.xml
+msgctxt "#31240"
+msgid "Tropical"
+msgstr "트로피컬"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31241"
+msgid "Colour scheme"
+msgstr "색상 테마"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31242"
+msgid "Blue Slate"
+msgstr "블루 슬레이트"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31243"
+msgid "Midnight Purple"
+msgstr "미드나이트 퍼플"
+
+msgctxt "#31244"
+msgid "Now playing"
+msgstr "지금 재생 중"
+
+msgctxt "#31245"
+msgid "Autoscroll labels"
+msgstr "레이블 자동 스크롤"
+
+msgctxt "#31246"
+msgid "Autoscroll textboxes"
+msgstr "텍스트 상자 자동 스크롤"
+
+msgctxt "#31249"
+msgid "Waiting for PVR"
+msgstr "TV 녹화 기능 준비 중"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31250"
+msgid "Highlight"
+msgstr "강조"
+
+msgctxt "#31252"
+msgid "Catch-up"
+msgstr "다시보기"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31254"
+msgid "Performance"
+msgstr "성능"
+
+msgctxt "#31255"
+msgid "Customise startup image"
+msgstr "시작 이미지 설정"
+
+msgctxt "#31256"
+msgid "Resource Usage"
+msgstr "시스템 사용량"
+
+msgctxt "#31257"
+msgid "Memory"
+msgstr "메모리"
+
+msgctxt "#31258"
+msgid "CPU"
+msgstr "CPU"
+
+msgctxt "#31259"
+msgid "FPS"
+msgstr "FPS"
+
+msgctxt "#31260"
+msgid "AR"
+msgstr "화면 비율"
+
+msgctxt "#31261"
+msgid "px"
+msgstr "px"
+
+msgctxt "#31262"
+msgid "Hz"
+msgstr "Hz"
+
+msgctxt "#31263"
+msgid "bits"
+msgstr "비트"
+
+msgctxt "#31264"
+msgid "Revenue"
+msgstr "흥행 수익"
+
+msgctxt "#31265"
+msgid "Budget"
+msgstr "제작비"
+
+msgctxt "#31270"
+msgid "Single image"
+msgstr "이미지 한 장"
+
+msgctxt "#31271"
+msgid "Image folder"
+msgstr "이미지 폴더"
+
+#: /1080i/Includes_Search_View.xml
+msgctxt "#31272"
+msgid "Searching"
+msgstr "검색 중"
+
+msgctxt "#31273"
+msgid "Label"
+msgstr "이름"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31274"
+msgid "Icon"
+msgstr "아이콘"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31275"
+msgid "Customise search"
+msgstr "검색 설정"
+
+msgctxt "#31279"
+msgid "Studio icons"
+msgstr "제작사 아이콘"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31281"
+msgid "Welcome"
+msgstr "환영합니다"
+
+#: /1080i/Includes_Shortcuts_Pallette.xml
+msgctxt "#31282"
+msgid "Widget"
+msgstr "위젯"
+
+#: /1080i/Includes_Info.xml
+msgctxt "#31283"
+msgid "Played"
+msgstr "재생 완료"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31284"
+msgid "Discover movies and tvshows on TMDb."
+msgstr "TMDb에서 영화와 시리즈를 찾아보세요."
+
+msgctxt "#31285"
+msgid "Classification (MPAA)"
+msgstr "관람 등급(MPAA)"
+
+msgctxt "#31286"
+msgid "Won"
+msgstr "수상"
+
+msgctxt "#31287"
+msgid "Nominated for"
+msgstr "후보 지명"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31288"
+msgid "Explore now."
+msgstr "지금 둘러보기"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31289"
+msgid "Touch mode"
+msgstr "터치 모드"
+
+#: /1080i/script-wikipedia.xml
+msgctxt "#31290"
+msgid "Attribution"
+msgstr "저작자 표시"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31291"
+msgid "Search for movies$COMMA tvshows$COMMA and more."
+msgstr "영화$COMMA 시리즈$COMMA 다양한 작품을 검색하세요."
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31292"
+msgid "Text labels"
+msgstr "텍스트 이름"
+
+msgctxt "#31293"
+msgid "Cast and more info"
+msgstr "출연진 및 상세 정보"
+
+msgctxt "#31294"
+msgid "Bookmarks and chapters"
+msgstr "책갈피 및 챕터"
+
+msgctxt "#31295"
+msgid "Channels"
+msgstr "채널"
+
+msgctxt "#31296"
+msgid "Playlist"
+msgstr "재생목록"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31297"
+msgid "Extra fanart"
+msgstr "추가 배경 이미지"
+
+msgctxt "#31298"
+msgid "Movies and tv shows starring this actor"
+msgstr "이 배우가 출연한 영화와 시리즈"
+
+msgctxt "#31299"
+msgid "Information is loading"
+msgstr "정보를 불러오는 중"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31300"
+msgid "Customise window background"
+msgstr "화면 배경 설정"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31301"
+msgid "Crew"
+msgstr "제작진"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31303"
+msgid "Customise fallback image folder"
+msgstr "기본 대체 이미지 폴더 설정"
+
+#: /1080i/Includes_Search.xml
+msgctxt "#31304"
+msgid "lists"
+msgstr "개 목록"
+
+#: /1080i/Includes_DialogInfo.xml
+msgctxt "#31307"
+msgid "Instrument"
+msgstr "악기"
+
+#: /1080i/Includes_DialogInfo.xml
+msgctxt "#31308"
+msgid "Mood"
+msgstr "분위기"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31309"
+msgid "Glass"
+msgstr "유리"
+
+#: /1080i/Custom_1161_Dialog_Weather.xml
+msgctxt "#31310"
+msgid "Expand"
+msgstr "펼치기"
+
+#: /1080i/Custom_1161_Dialog_Weather.xml
+msgctxt "#31311"
+msgid "Weekly"
+msgstr "주간"
+
+#: /1080i/Includes_MediaFilter.xml
+msgctxt "#31319"
+msgid "View"
+msgstr "보기"
+
+#: /1080i/Includes_Views.xml
+msgctxt "#31320"
+msgid "Square"
+msgstr "정사각형"
+
+#: /1080i/Includes_SkinSettings.xml /1080i/Settings.xml
+msgctxt "#31321"
+msgid "Customise viewtypes"
+msgstr "보기 방식 설정"
+
+#: /1080i/SkinSettings.xml /1080i/Includes_Labels.xml
+msgctxt "#31322"
+msgid "Age"
+msgstr "나이"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31324"
+msgid "Content"
+msgstr "콘텐츠"
+
+#: /1080i/Custom_1116_Dialog_Shortcuts.xml
+msgctxt "#31328"
+msgid "Edit widgets"
+msgstr "위젯 편집"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31329"
+msgid "Text"
+msgstr "텍스트"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31330"
+msgid "Crop"
+msgstr "잘라내기"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31331"
+msgid "Background style"
+msgstr "배경 스타일"
+
+msgctxt "#31334"
+msgid "Comments"
+msgstr "댓글"
+
+#: /1080i/GameOSD.xml
+msgctxt "#31335"
+msgid "Game menu"
+msgstr "게임 메뉴"
+
+#: /1080i/GameOSD.xml
+msgctxt "#31336"
+msgid "Select + X"
+msgstr "선택 + X"
+
+#: /1080i/GameOSD.xml
+msgctxt "#31337"
+msgid "Select + Start"
+msgstr "선택 + 시작"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31338"
+msgid "Select + Right Stick"
+msgstr "선택 + 오른쪽 스틱"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31340"
+msgid "Reset skin to defaults"
+msgstr "스킨 기본값으로 초기화"
+
+msgctxt "#31346"
+msgid "More by this artist"
+msgstr "이 아티스트의 다른 작품"
+
+#: /1080i/Includes_DialogInfo.xml
+msgctxt "#31347"
+msgid "Photography"
+msgstr "사진 촬영"
+
+msgctxt "#31348"
+msgid "Channel EPG"
+msgstr "채널 편성표"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31349"
+msgid "Up"
+msgstr "위로"
+
+msgctxt "#31350"
+msgid "Thanks"
+msgstr "감사의 말"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31353"
+msgid "Elapsed"
+msgstr "재생한 시간"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31354"
+msgid "Remaining"
+msgstr "남은 시간"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31355"
+msgid "Seekbar time display"
+msgstr "탐색 막대 시간 표시"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31356"
+msgid "Use online cast"
+msgstr "온라인 출연진 정보 사용"
+
+#: /1080i/SkinSettings.xml /1080i/Includes_Items.xml
+msgctxt "#31357"
+msgid "Artwork Overlay"
+msgstr "이미지 오버레이"
+
+msgctxt "#31358"
+msgid "Waiting for plugins"
+msgstr "애드온 준비 중"
+
+#: /shortcuts/generator/data/setup/powermenu_item.xml
+msgctxt "#31359"
+msgid "Switch user"
+msgstr "사용자 전환"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31362"
+msgid "Side items"
+msgstr "측면 항목"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31363"
+msgid "Menu items"
+msgstr "메뉴 항목"
+
+#: /shortcuts/powersubmenu.DATA.xml
+msgctxt "#31364"
+msgid "Reload"
+msgstr "새로고침"
+
+#: /1080i/DialogContextMenu.xml
+msgctxt "#31365"
+msgid "Node"
+msgstr "노드"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31366"
+msgid "Uncropped"
+msgstr "원본 비율"
+
+#: /1080i/Includes_Search_View.xml
+msgctxt "#31368"
+msgid "Searching for"
+msgstr "검색 중"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31369"
+msgid "Video file"
+msgstr "영상 파일"
+
+#: /1080i/Custom_1172_Dialog_SideMenu.xml
+msgctxt "#31370"
+msgid "Switch profile"
+msgstr "프로필 전환"
+
+msgctxt "#31371"
+msgid "Sorted by"
+msgstr "정렬 기준"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31372"
+msgid "Options tray"
+msgstr "옵션 메뉴"
+
+#: /1080i/Includes_DialogInfo.xml
+msgctxt "#31373"
+msgid "from"
+msgstr "출처"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31374"
+msgid "Reset skin settings to defaults"
+msgstr "스킨 설정을 기본값으로 초기화"
+
+msgctxt "#31375"
+msgid "Install zip"
+msgstr "ZIP 파일 설치"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31376"
+msgid "Reset discover search history"
+msgstr "둘러보기 검색 기록 초기화"
+
+#: /1080i/Includes_Shortcuts_Window.xml
+msgctxt "#31377"
+msgid "Next window"
+msgstr "다음 화면"
+
+msgctxt "#31378"
+msgid "Foreign"
+msgstr "외국어"
+
+#: /1080i/Custom_1116_Dialog_Shortcuts.xml
+msgctxt "#31379"
+msgid "Edit categories"
+msgstr "카테고리 편집"
+
+msgctxt "#31380"
+msgid "Forecast"
+msgstr "일기 예보"
+
+msgctxt "#31381"
+msgid "Returning"
+msgstr "방영 예정"
+
+msgctxt "#31382"
+msgid "All items"
+msgstr "전체 항목"
+
+msgctxt "#31383"
+msgid "Production"
+msgstr "제작"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31384"
+msgid "Tray labels"
+msgstr "도구 메뉴 이름"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31385"
+msgid "Secondary"
+msgstr "보조"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31386"
+msgid "Primary"
+msgstr "기본"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31387"
+msgid "Contextual"
+msgstr "상황에 따라"
+
+#: /1080i/Custom_1116_Dialog_Shortcuts.xml
+msgctxt "#31388"
+msgid "Seed"
+msgstr "기준값"
+
+#: /1080i/Custom_1116_Dialog_Shortcuts.xml
+msgctxt "#31389"
+msgid "Parent widget"
+msgstr "상위 위젯"
+
+msgctxt "#31390"
+msgid "Release Year"
+msgstr "공개 연도"
+
+#: /1080i/Includes_Items.xml Shorter label for use in info dialog buttons
+msgctxt "#31393"
+msgid "Trailer"
+msgstr "예고편"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31394"
+msgid "Picture-in-picture video"
+msgstr "작은 화면으로 영상 보기"
+
+msgctxt "#31396"
+msgid "Recent Movies"
+msgstr "최근 추가 영화"
+
+msgctxt "#31397"
+msgid "Recent Tv Shows"
+msgstr "최근 업데이트 시리즈"
+
+msgctxt "#31398"
+msgid "New Movies"
+msgstr "새로 추가한 영화"
+
+msgctxt "#31399"
+msgid "New TV Shows"
+msgstr "새로 추가한 시리즈"
+
+msgctxt "#31400"
+msgid "New Episodes"
+msgstr "새 에피소드"
+
+msgctxt "#31401"
+msgid "New Artists"
+msgstr "새 아티스트"
+
+msgctxt "#31402"
+msgid "New Albums"
+msgstr "새 앨범"
+
+msgctxt "#31403"
+msgid "In-Progress TV Shows"
+msgstr "이어볼 시리즈"
+
+msgctxt "#31404"
+msgid "In-Progress Movies"
+msgstr "이어볼 영화"
+
+msgctxt "#31405"
+msgid "Top Albums"
+msgstr "인기 앨범"
+
+msgctxt "#31406"
+msgid "Top Rated Movies"
+msgstr "평점 높은 영화"
+
+msgctxt "#31407"
+msgid "Top Rated TV Shows"
+msgstr "평점 높은 시리즈"
+
+msgctxt "#31408"
+msgid "Random Movies"
+msgstr "무작위 영화"
+
+msgctxt "#31409"
+msgid "Random TV Shows"
+msgstr "무작위 시리즈"
+
+msgctxt "#31410"
+msgid "Random Episodes"
+msgstr "무작위 에피소드"
+
+msgctxt "#31411"
+msgid "Random Songs"
+msgstr "무작위 곡"
+
+msgctxt "#31412"
+msgid "Random Albums"
+msgstr "무작위 앨범"
+
+msgctxt "#31413"
+msgid "All Movies"
+msgstr "영화 전체"
+
+msgctxt "#31414"
+msgid "All TV Shows"
+msgstr "시리즈 전체"
+
+msgctxt "#31415"
+msgid "Movies and TV Shows"
+msgstr "영화와 시리즈"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31416"
+msgid "Secondary button"
+msgstr "보조 버튼"
+
+msgctxt "#31417"
+msgid "Random Artists"
+msgstr "무작위 아티스트"
+
+#: /1080i/Includes_Views_Row.xml
+msgctxt "#31418"
+msgid "Row Circle"
+msgstr "원형 가로 목록"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31419"
+msgid "Overview"
+msgstr "개요"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31420"
+msgid "Apps"
+msgstr "앱"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31423"
+msgid "Card"
+msgstr "카드"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31424"
+msgid "Board"
+msgstr "보드"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31425"
+msgid "Labels"
+msgstr "이름"
+
+#: /1080i/Home.xml
+msgctxt "#31427"
+msgid "Initialising"
+msgstr "준비 중"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31428"
+msgid "Hide widget initialisation behind splash"
+msgstr "시작 화면에서 위젯 준비 과정 숨기기"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31429"
+msgid "Chapters"
+msgstr "챕터"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31430"
+msgid "Customise style"
+msgstr "스타일 설정"
+
+#: /1080i/SkinSettings.xml /1080i/Includes_Views_Row.xml
+msgctxt "#31431"
+msgid "Circle"
+msgstr "원형"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31432"
+msgid "Adaptive"
+msgstr "자동 맞춤"
+
+#: /1080i/Includes_SkinSettings.xml /1080i/Settings.xml
+msgctxt "#31434"
+msgid "Customise video OSD"
+msgstr "재생 메뉴 설정"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31435"
+msgid "TMDbHelper lookups"
+msgstr "TMDbHelper 정보 조회"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31438"
+msgid "Simple"
+msgstr "간단하게"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31439"
+msgid "Large"
+msgstr "크게"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31440"
+msgid "Extra Large"
+msgstr "아주 크게"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31441"
+msgid "FlixArt Size"
+msgstr "플릭스아트 크기"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31442"
+msgid "Parent"
+msgstr "상위"
+
+#: /1080i/Settings.xml
+msgctxt "#31444"
+msgid "Customisation"
+msgstr "꾸미기"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31448"
+msgid "This category contains customisation options for"
+msgstr "이 카테고리의 꾸미기 대상"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31450"
+msgid "Text only"
+msgstr "텍스트만"
+
+#: /1080i/Custom_1180_Wizard.xml
+msgctxt "#31451"
+msgid "Compound"
+msgstr "복합형"
+
+#: /1080i/Custom_1180_Wizard.xml
+msgctxt "#31452"
+msgid "Composite"
+msgstr "조합형"
+
+#: /1080i/Custom_1115_Dialog_WideSettings.xml
+msgctxt "#31456"
+msgid "Prebuilt"
+msgstr "기본 제공"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31457"
+msgid "Scrollbar"
+msgstr "스크롤 막대"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31458"
+msgid "Monochrome"
+msgstr "단색"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31459"
+msgid "Letter"
+msgstr "글자"
+
+#: /1080i/SkinSettings.xml /1080i/MusicOSD.xml
+msgctxt "#31460"
+msgid "Customise visualisation"
+msgstr "시각화 설정"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31461"
+msgid "Choose preset"
+msgstr "미리 설정된 구성 선택"
+
+#: /1080i/Includes_Views_Wall.xml
+msgctxt "#31462"
+msgid "Wall Banner"
+msgstr "배너 격자 목록"
+
+#: /1080i/Custom_1161_Dialog_Weather.xml
+msgctxt "#31465"
+msgid "Rain chance"
+msgstr "강수 확률"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31467"
+msgid "Tiles configuration"
+msgstr "타일 구성"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31468"
+msgid "Tile layout"
+msgstr "타일 배치"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31469"
+msgid "Choose shortcut"
+msgstr "바로가기 선택"
+
+#: /1080i/Custom_1161_Dialog_Weather.xml
+msgctxt "#31470"
+msgid "Wind gusts"
+msgstr "돌풍"
+
+#: /1080i/Custom_1161_Dialog_Weather.xml
+msgctxt "#31471"
+msgid "Fire danger"
+msgstr "화재 위험"
+
+#: /1080i/Custom_1161_Dialog_Weather.xml
+msgctxt "#31472"
+msgid "Rain since 9am"
+msgstr "오전 9시 이후 강수량"
+
+#: /1080i/Custom_1161_Dialog_Weather.xml
+msgctxt "#31473"
+msgid "Radar"
+msgstr "레이더"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31476"
+msgid "This category contains acknowledgements, contributions, and thanks."
+msgstr "도움을 주신 분들과 기여자, 감사의 말을 담았습니다."
+
+#: /1080i/SkinSettings.xml /1080i/Includes_Items.xml
+msgctxt "#31477"
+msgid "Progress percentage"
+msgstr "진행률"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31478"
+msgid "by"
+msgstr "제작"
+
+#: /1080i/Includes_Views_List.xml
+msgctxt "#31479"
+msgid "List Media"
+msgstr "미디어 목록"
+
+#: /1080i/Includes_Views_List.xml
+msgctxt "#31480"
+msgid "List Flixart"
+msgstr "플릭스아트 목록"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31482"
+msgid "Trailers"
+msgstr "예고편"
+
+#: /1080i/Custom_1123_Dialog_Trailer.xml
+msgctxt "#31483"
+msgid "Replay"
+msgstr "다시 재생"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31484"
+msgid "Pause"
+msgstr "일시정지"
+
+#: /1080i/Custom_1123_Dialog_Trailer.xml
+msgctxt "#31485"
+msgid "Stop"
+msgstr "정지"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31486"
+msgid "Dialog"
+msgstr "대화 상자"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31487"
+msgid "and"
+msgstr "및"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31490"
+msgid "Cancelled"
+msgstr "취소됨"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31491"
+msgid "Miscellaneous"
+msgstr "기타"
+
+#: /1080i/Includes_Actions.xml
+msgctxt "#31492"
+msgid "Add-ons hub"
+msgstr "애드온 화면"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31493"
+msgid "Ended"
+msgstr "종료됨"
+
+#: /1080i/Custom_1115_Dialog_Shortcuts.xml
+msgctxt "#31494"
+msgid "Rebuild"
+msgstr "다시 생성"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31495"
+msgid "Unlocked"
+msgstr "잠금 해제됨"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31496"
+msgid "Customise widgets"
+msgstr "위젯 꾸미기"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31497"
+msgid "Minimise menu"
+msgstr "메뉴 접기"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31498"
+msgid "Released"
+msgstr "공개됨"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31499"
+msgid "In-Production"
+msgstr "제작 중"
+
+#: /1080i/Includes_Search.xml
+msgctxt "#31500"
+msgid "There were no search results found"
+msgstr "검색 결과가 없습니다"
+
+#: /1080i/Includes_Search.xml
+msgctxt "#31501"
+msgid "Please try another search"
+msgstr "다른 검색어로 찾아보세요"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31502"
+msgid "More Options"
+msgstr "추가 옵션"
+
+#: /1080i/DialogVideoVersion.xml
+msgctxt "#31503"
+msgid "Extras"
+msgstr "부가 기능"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31504"
+msgid "Planned"
+msgstr "예정됨"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31505"
+msgid "Skin user login screen on startup"
+msgstr "시작할 때 스킨 사용자 선택"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31506"
+msgid "Individual skin user widget configurations"
+msgstr "스킨 사용자별 위젯 구성"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31507"
+msgid "pseudo profiles"
+msgstr "스킨 전용 프로필"
+
+#: /1080i/Custom_1195_SkinUserLoginScreen.xml
+msgctxt "#31508"
+msgid "Loading skin user profiles"
+msgstr "스킨 사용자 프로필 불러오는 중"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31509"
+msgid "Holiday"
+msgstr "휴일"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31510"
+msgid "Holiday themes"
+msgstr "휴일 테마"
+
+#: /1080i/Custom_1115_Dialog_Shortcuts.xml
+msgctxt "#31511"
+msgid "Shortcut"
+msgstr "바로가기"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31515"
+msgid "Main Items"
+msgstr "주 메뉴 항목"
+
+#: /1080i/Custom_1115_Dialog_Shortcuts.xml
+msgctxt "#31516"
+msgid "Edit items"
+msgstr "항목 편집"
+
+#: /1080i/Custom_1115_Dialog_Shortcuts.xml
+msgctxt "#31517"
+msgid "Reverse order"
+msgstr "역순"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31519"
+msgid "Empty widget placeholder"
+msgstr "빈 위젯 자리 표시"
+
+#: /1080i/Includes_Weather_Radar.xml
+msgctxt "#31520"
+msgid "Cloudiness"
+msgstr "구름량"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31522"
+msgid "Hiding empty widgets may cause positioning issues after video playback."
+msgstr "빈 위젯을 숨기면 영상 재생 후 위치가 어긋날 수 있습니다."
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31523"
+msgid "It is recommended to delete any unused widgets from your configuration instead of hiding them."
+msgstr "사용하지 않는 위젯은 숨기기보다 구성에서 삭제하는 것을 권장합니다."
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31524"
+msgid "There is also an overhead refresh cost to performance associated with hiding empty widgets."
+msgstr "빈 위젯을 숨기면 새로고침에 추가 자원이 필요해 성능에 영향을 줄 수 있습니다."
+
+#: /1080i/Includes_Weather_Radar.xml
+msgctxt "#31525"
+msgid "Visibility"
+msgstr "표시 여부"
+
+#: /1080i/Includes_Weather_Forecast.xml
+msgctxt "#31526"
+msgid "Hour"
+msgstr "시간"
+
+#: /1080i/Includes_Weather_Forecast.xml
+msgctxt "#31527"
+msgid "Later"
+msgstr "나중에"
+
+#: /1080i/Includes_Weather_Forecast.xml
+msgctxt "#31528"
+msgid "Particulate"
+msgstr "미세먼지"
+
+#: /1080i/Includes_Weather_Forecast.xml
+msgctxt "#31529"
+msgid "Ozone"
+msgstr "오존"
+
+#: /1080i/Includes_Weather_Forecast.xml
+msgctxt "#31530"
+msgid "Solar radiation"
+msgstr "일사량"
+
+#: /1080i/Includes_Weather_Forecast.xml
+msgctxt "#31531"
+msgid "Carbon monoxide"
+msgstr "일산화탄소"
+
+#: /1080i/Custom_1115_Dialog_Shortcuts.xml
+msgctxt "#31533"
+msgid "Add list"
+msgstr "목록 추가"
+
+#: /1080i/Custom_1115_Dialog_Shortcuts.xml
+msgctxt "#31535"
+msgid "Restore"
+msgstr "복원"
+
+#: /1080i/Custom_1115_Dialog_Shortcuts.xml
+msgctxt "#31536"
+msgid "Choose fallback image folder"
+msgstr "기본 대체 이미지 폴더 선택"
+
+#: /1080i/Custom_1115_Dialog_Shortcuts.xml
+msgctxt "#31537"
+msgid "Edit submenu items"
+msgstr "하위 메뉴 편집"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31538"
+msgid "Customise viewtypes"
+msgstr "보기 방식 설정"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31539"
+msgid "Use online gallery"
+msgstr "온라인 갤러리 사용"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31540"
+msgid "Use online collection"
+msgstr "온라인 시리즈 모음 사용"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31541"
+msgid "Next episode"
+msgstr "다음 에피소드"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31542"
+msgid "Last episode"
+msgstr "마지막 에피소드"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31543"
+msgid "Anticipated"
+msgstr "기대작"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31544"
+msgid "Airing"
+msgstr "방영 중"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31545"
+msgid "Premiering"
+msgstr "첫 방송 예정"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31547"
+msgid "Yesterday"
+msgstr "어제"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31550"
+msgid "Change the visibility level of skin settings."
+msgstr "표시할 스킨 설정의 수준을 변경합니다."
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31552"
+msgid "Settings level"
+msgstr "설정 수준"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31554"
+msgid "Wall Poster"
+msgstr "포스터 격자 목록"
+
+#: /1080i/Includes_Views_Wall.xml
+msgctxt "#31555"
+msgid "Wall Landscape"
+msgstr "가로형 격자 목록"
+
+#: /1080i/Includes_Views_Wall.xml
+msgctxt "#31556"
+msgid "Wall Square"
+msgstr "정사각형 격자 목록"
+
+#: /1080i/Includes_Views_Wall.xml
+msgctxt "#31557"
+msgid "Wall Circle"
+msgstr "원형 격자 목록"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31560"
+msgid "Bright White"
+msgstr "밝은 흰색"
+
+#: /1080i/Includes_Views_Row.xml
+msgctxt "#31563"
+msgid "Row Card"
+msgstr "카드 가로 목록"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31564"
+msgid "General appearance and widget layout customisations."
+msgstr "전반적인 모양과 위젯 배치를 설정합니다."
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31565"
+msgid "Detailed adjustments and additional hub customisations."
+msgstr "세부 조정과 추가 메뉴 화면을 설정합니다."
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31566"
+msgid "Development tools and experimental options."
+msgstr "개발 도구와 실험 기능입니다."
+
+#: /1080i/Custom_1116_Dialog_Shortcuts.xml
+msgctxt "#31567"
+msgid "Add a single item or a list of several items?"
+msgstr "항목 하나를 추가할까요, 여러 항목으로 된 목록을 추가할까요?"
+
+#: /1080i/Custom_1116_Dialog_Shortcuts.xml
+msgctxt "#31568"
+msgid "Add new item(s)"
+msgstr "새 항목 추가"
+
+#: /1080i/Custom_1116_Dialog_Shortcuts.xml
+msgctxt "#31569"
+msgid "Add item"
+msgstr "항목 추가"
+
+#: /1080i/Custom_1116_Dialog_Shortcuts.xml
+msgctxt "#31570"
+msgid "Delete item(s)"
+msgstr "항목 삭제"
+
+#: /1080i/Custom_1116_Dialog_Shortcuts.xml
+msgctxt "#31571"
+msgid "Delete a single item or a list of several items?"
+msgstr "항목 하나를 삭제할까요, 여러 항목으로 된 목록을 삭제할까요?"
+
+#: /1080i/Custom_1116_Dialog_Shortcuts.xml
+msgctxt "#31572"
+msgid "Delete item"
+msgstr "항목 삭제"
+
+#: /1080i/Custom_1116_Dialog_Shortcuts.xml
+msgctxt "#31573"
+msgid "Delete list"
+msgstr "목록 삭제"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31576"
+msgid "Seekbar delayed pause time"
+msgstr "탐색 막대 일시정지 지연 시간"
+
+#: /1080i/Includes_ButtonMenu.xml
+msgctxt "#31579"
+msgid "Prev"
+msgstr "이전"
+
+#: /1080i/Includes_Views_List.xml
+msgctxt "#31580"
+msgid "Combined List"
+msgstr "통합 목록"
+
+#: /1080i/Includes_Views_List.xml
+msgctxt "#31581"
+msgid "List Expanded"
+msgstr "확장 목록"
+
+#: /1080i/Custom_1116_Dialog_Shortcuts.xml
+msgctxt "#31583"
+msgid "Prevent reload"
+msgstr "다시 불러오기 방지"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31585"
+msgid "Overlay"
+msgstr "오버레이"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31586"
+msgid "Customise shortcuts"
+msgstr "바로가기 편집"
+
+#: /1080i/Includes_OSD.xml
+msgctxt "#31594"
+msgid "Press down"
+msgstr "아래 버튼 누르기"
+
+#: /1080i/Includes_OSD.xml
+msgctxt "#31595"
+msgid "Press right"
+msgstr "오른쪽 버튼 누르기"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31596"
+msgid "Additional icons"
+msgstr "추가 아이콘"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31597"
+msgid "Confirmation"
+msgstr "확인"
+
+#: /1080i/Dialogs_DialogGameControllers.xml
+msgctxt "#31598"
+msgid "Controllers"
+msgstr "컨트롤러"
+
+#: /1080i/Dialogs_DialogPVRGroupManager.xml
+msgctxt "#31599"
+msgid "Ungrouped"
+msgstr "그룹 없음"
+
+#: /1080i/Includes_Info.xml
+msgctxt "#31600"
+msgid "Ends at"
+msgstr "종료 예정"
+
+#: /1080i/Custom_1115_Window_Shortcuts.xml
+msgctxt "#31601"
+msgid "Edit tray"
+msgstr "도구 메뉴 편집"
+
+#: /1080i/Dialog_DialogContextMenu.xml
+msgctxt "#31602"
+msgid "Add shortcut"
+msgstr "바로가기 추가"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31604"
+msgid "Additional"
+msgstr "추가"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31605"
+msgid "Next aired"
+msgstr "다음 방송일"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31610"
+msgid "Seasonal Themes"
+msgstr "계절 테마"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31611"
+msgid "Christmas Theme"
+msgstr "크리스마스 테마"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31612"
+msgid "Dec 7 - Jan 7"
+msgstr "12월 7일 ~ 1월 7일"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31613"
+msgid "Winter Frost"
+msgstr "겨울 서리"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31614"
+msgid "Aussie Christmas"
+msgstr "호주의 크리스마스"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31615"
+msgid "Summer Breeze"
+msgstr "여름 산들바람"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31616"
+msgid "Jun 21 - Aug 15"
+msgstr "6월 21일 ~ 8월 15일"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31617"
+msgid "Halloween Spook"
+msgstr "핼러윈 테마"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31618"
+msgid "Oct 1 - Nov 1"
+msgstr "10월 1일 ~ 11월 1일"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31619"
+msgid "Background Overlay"
+msgstr "배경 오버레이"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31620"
+msgid "Background Atmosphere"
+msgstr "배경 분위기"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31621"
+msgid "Fly-by Animations"
+msgstr "지나가는 애니메이션"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31622"
+msgid "Falling Props Density"
+msgstr "떨어지는 장식 밀도"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31623"
+msgid "Off"
+msgstr "끄기"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31624"
+msgid "Normal"
+msgstr "보통"
+
+#: /1080i/Includes_SkinSettings.xml
+msgctxt "#31625"
+msgid "High"
+msgstr "높음"

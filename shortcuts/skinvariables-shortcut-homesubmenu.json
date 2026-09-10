@@ -1,20 +1,26 @@
 [
     {
-        "label": "$LOCALIZE[3]",
-        "icon": "special://skin/extras/icons/video.png",
-        "path": "ActivateWindow(videos)",
+        "label": "영화",
+        "icon": "special://skin/extras/icons/film.png",
+        "path": "ActivateWindow(Videos,videodb://movies/titles/,return)",
         "target": ""
     },
     {
-        "label": "$LOCALIZE[249]",
-        "icon": "special://skin/extras/icons/songs.png",
-        "path": "ActivateWindow(music)",
+        "label": "시리즈",
+        "icon": "special://skin/extras/icons/tv.png",
+        "path": "ActivateWindow(Videos,videodb://tvshows/titles/,return)",
         "target": ""
     },
     {
-        "label": "$LOCALIZE[1]",
-        "icon": "special://skin/extras/icons/image.png",
-        "path": "ActivateWindow(pictures)",
+        "label": "검색",
+        "icon": "special://skin/extras/icons/search.png",
+        "path": "ActivateWindow(1105)",
+        "target": ""
+    },
+    {
+        "label": "설정",
+        "icon": "special://skin/extras/icons/settings.png",
+        "path": "ActivateWindow(Settings)",
         "target": ""
     }
 ]

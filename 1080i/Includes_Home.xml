@@ -54,7 +54,7 @@
 
     <include name="Home_ControlList_Item_1105">
         <include content="Home_ControlList_Item">
-            <param name="label">Search</param>
+            <param name="label">검색</param>
             <param name="icon">special://skin/extras/icons/search.png</param>
             <param name="action">ReplaceWindow(1105)</param>
             <param name="enabled">[!Skin.HasSetting(HomeSwitcher.DisableSearch)]</param>
@@ -120,7 +120,7 @@
 
     <include name="Home_ControlList_Item_1106">
         <include content="Home_ControlList_Item">
-            <param name="label">Next Aired</param>
+            <param name="label">다음 방송</param>
             <param name="icon">$VAR[Home_Icon_1106]</param>
             <param name="action">ReplaceWindow(1106)</param>
             <param name="enabled">!String.IsEmpty(Skin.String(HomeSwitcher.1106.Toggle))</param>
@@ -142,7 +142,7 @@
 
     <include name="Home_ControlList_Item_1108">
         <include content="Home_ControlList_Item">
-            <param name="label">Addons</param>
+            <param name="label">애드온</param>
             <param name="icon">$VAR[Home_Icon_1108]</param>
             <param name="action">ReplaceWindow(1108)</param>
             <param name="enabled">!String.IsEmpty(Skin.String(HomeSwitcher.1108.Toggle))</param>
