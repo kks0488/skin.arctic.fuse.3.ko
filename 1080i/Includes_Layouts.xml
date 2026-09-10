@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
+    <variable name="Home_BrowseMore_Label">
+        <value condition="String.Contains(ListItem.FolderPath,HomeGenreAction.xsp)">액션[CR]더보기 →</value>
+        <value condition="String.Contains(ListItem.FolderPath,HomeGenreScifi.xsp)">SF[CR]더보기 →</value>
+        <value condition="String.Contains(ListItem.FolderPath,HomeGenreThriller.xsp)">스릴러[CR]더보기 →</value>
+        <value condition="String.Contains(ListItem.FolderPath,HomeGenreComedy.xsp)">코미디[CR]더보기 →</value>
+        <value condition="String.Contains(ListItem.FolderPath,HomeGenreAnimation.xsp)">애니메이션[CR]더보기 →</value>
+        <value condition="String.Contains(ListItem.FolderPath,HomeGenreDrama.xsp)">드라마[CR]더보기 →</value>
+        <value condition="String.Contains(ListItem.FolderPath,RecentMovies.xsp)">최근 추가 영화[CR]더보기 →</value>
+        <value condition="String.Contains(ListItem.FolderPath,InProgressMovies.xsp)">이어보기[CR]더보기 →</value>
+        <value>이 목록[CR]더보기 →</value>
+    </variable>
+
 
     <include name="Layout_BasicMeta">
         <param name="selected">false</param>
@@ -2097,7 +2109,7 @@
                             <align>center</align><aligny>center</aligny>
                             <font>font_main_bold</font><textcolor>FFFFFFFF</textcolor>
                             <autoscroll>false</autoscroll>
-                            <label>더보기[CR]전체 목록  →</label>
+                            <label>$VAR[Home_BrowseMore_Label]</label>
                         </control>
                     </control>
                 </control>
