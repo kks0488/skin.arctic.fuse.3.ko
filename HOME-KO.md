@@ -57,4 +57,12 @@ The installed TV also disables TMDb Helper online artwork/ratings and its automa
 
 Limited home rows use Kodi's native browse item when more results exist. Poster layouts render target_folder items as a simple Korean More label instead of the default folder image. This does not add a Python service.
 
-The personal TV uses Apple SD Gothic Neo for UI and text subtitles. Those font binaries and the device-specific Font.xml are not included in this public package. Preserve the personal Font.xml when deploying updates to that TV.
+The personal TV uses Apple SD Gothic Neo for UI and text subtitles. The font binaries are private and excluded from the public package. Starting with 3.2.19.9, choose the persistent Apple SD Gothic Neo fontset; it loads fonts from special://home/media/Fonts outside the skin package.
+
+## Safe personal-TV updates (3.2.19.9)
+
+Build with `python tools/build.py`. Transfer the resulting ZIP and `tools/safe_update.py` to the TV Download staging directory. Execute `RunScript(/sdcard/Download/arctic-fuse-install/safe_update.py,ZIP_PATH,SHA256)` using the SHA256 printed by the build. Do not run during playback.
+
+The updater checks the digest, archive paths, CRC, skin ID and personal font option before writing. It backs up the existing skin under `special://profile/skin-update-backups/`, preserves generated files, and reloads the skin. An application error triggers restoration of previous files. Power loss and future Kodi incompatibilities still require manual recovery. Backup copies are retained for review, not deleted automatically. Check font selection, local home rows, search, subtitle provider and a real playback after updating.
+
+For Kodi major upgrades, stop Kodi and back up userdata, addons and media together first; preserve the current app version information. Do not blindly overwrite a newer Kodi database with an older snapshot. UI backups are not a guarantee of playback or API compatibility.

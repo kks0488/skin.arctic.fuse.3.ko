@@ -34,6 +34,7 @@ def main():
     for folder in ('1080i','colors','extras','fonts','language','media','shortcuts'):
         files += [f for f in (ROOT/folder).rglob('*') if f.is_file()]
     for f in files:
+        assert not (f.suffix.lower() in ('.ttf', '.otf', '.ttc', '.woff', '.woff2') and 'apple' in f.name.lower()), 'Personal Apple font must not be packaged'
         if f.suffix == '.xml': ET.parse(f)
         if f.suffix == '.json': json.loads(f.read_text())
         if f.suffix in ('.xml','.json','.xmltemplate'):

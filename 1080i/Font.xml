@@ -23,5 +23,13 @@
             <param name="plot_linespacing_tiny">1.11</param>
         </include>
     </fontset>
+    <!-- Optional personal fonts live outside the replaceable skin directory. -->
+    <fontset id="Apple SD Gothic Neo" unicode="true">
+        <include content="Font_Default">
+            <param name="font_bold">special://home/media/Fonts/AppleSDGothicNeo-Bold.ttf</param>
+            <param name="font_regular">special://home/media/Fonts/AppleSDGothicNeo-Regular.ttf</param>
+            <param name="font_light">special://home/media/Fonts/AppleSDGothicNeo-Regular.ttf</param>
+        </include>
+    </fontset>
 </fonts>
 
