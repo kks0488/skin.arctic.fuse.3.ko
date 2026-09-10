@@ -1,22 +1,74 @@
 [
     {
-        "label": "영화 전체",
-        "icon": "special://skin/extras/icons/film.png",
-        "path": "videodb://movies/titles/",
+        "label": "최근 추가 영화",
+        "icon": "",
+        "path": "special://skin/extras/playlists/RecentMovies.xsp",
         "target": "videos",
         "widget_style": "Poster",
-        "widget_limit": "0",
-        "widget_sortby": "sorttitle",
-        "widget_sortorder": "ascending"
+        "widget_limit": "16"
     },
     {
-        "label": "시리즈 전체",
-        "icon": "special://skin/extras/icons/tv.png",
+        "label": "이어보기",
+        "icon": "",
+        "path": "special://skin/extras/playlists/InProgressMovies.xsp",
+        "target": "videos",
+        "widget_style": "Poster",
+        "widget_limit": "16"
+    },
+    {
+        "label": "액션",
+        "icon": "",
+        "path": "special://skin/extras/playlists/HomeGenreAction.xsp",
+        "target": "videos",
+        "widget_style": "Poster",
+        "widget_limit": "16"
+    },
+    {
+        "label": "SF",
+        "icon": "",
+        "path": "special://skin/extras/playlists/HomeGenreScifi.xsp",
+        "target": "videos",
+        "widget_style": "Poster",
+        "widget_limit": "16"
+    },
+    {
+        "label": "스릴러",
+        "icon": "",
+        "path": "special://skin/extras/playlists/HomeGenreThriller.xsp",
+        "target": "videos",
+        "widget_style": "Poster",
+        "widget_limit": "16"
+    },
+    {
+        "label": "코미디",
+        "icon": "",
+        "path": "special://skin/extras/playlists/HomeGenreComedy.xsp",
+        "target": "videos",
+        "widget_style": "Poster",
+        "widget_limit": "16"
+    },
+    {
+        "label": "애니메이션",
+        "icon": "",
+        "path": "special://skin/extras/playlists/HomeGenreAnimation.xsp",
+        "target": "videos",
+        "widget_style": "Poster",
+        "widget_limit": "16"
+    },
+    {
+        "label": "드라마",
+        "icon": "",
+        "path": "special://skin/extras/playlists/HomeGenreDrama.xsp",
+        "target": "videos",
+        "widget_style": "Poster",
+        "widget_limit": "16"
+    },
+    {
+        "label": "시리즈",
+        "icon": "",
         "path": "videodb://tvshows/titles/",
         "target": "videos",
         "widget_style": "Poster",
-        "widget_limit": "0",
-        "widget_sortby": "sorttitle",
-        "widget_sortorder": "ascending"
+        "widget_limit": "16"
     }
 ]

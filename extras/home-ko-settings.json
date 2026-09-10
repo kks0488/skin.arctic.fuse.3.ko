@@ -10,5 +10,8 @@
   "HomeSwitcher.Home.Spotlight.Target": "",
   "HomeSwitcher.Home.Spotlight.Path": "",
   "HomeSwitcher.Home.Spotlight.Label": "",
-  "HomeSwitcher.Home.Mode": "Wall"
+  "HomeSwitcher.Home.Mode": "Standard",
+  "Widgets.EnableShowMore": true,
+  "Search.DisableDiscover": true,
+  "HomeSwitcher.Search.Mode": "Standard"
 }

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smartplaylist type="movies"><name>스릴러</name><match>all</match><rule field="genre" operator="is"><value>스릴러</value></rule><order direction="descending">dateadded</order></smartplaylist>
