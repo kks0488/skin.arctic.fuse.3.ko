@@ -7,936 +7,1102 @@
       <top>0</top>
       <width>1920</width>
       <height>1080</height>
-      <texture colordiffuse="FF10151E">special://skin/extras/search-ui/white.png</texture>
-    </control>
-    <control type="image">
-      <left>48</left>
-      <top>182</top>
-      <width>504</width>
-      <height>730</height>
-      <texture colordiffuse="FF18212D">special://skin/extras/search-ui/white.png</texture>
-    </control>
-    <control type="image">
-      <left>600</left>
-      <top>92</top>
-      <width>1260</width>
-      <height>88</height>
-      <texture colordiffuse="FF202C3B">special://skin/extras/search-ui/white.png</texture>
+      <texture colordiffuse="FF09090D">special://skin/extras/search-ui/white.png</texture>
     </control>
     <control type="label">
-      <left>64</left>
-      <top>65</top>
-      <width>480</width>
-      <height>80</height>
+      <left>80</left>
+      <top>48</top>
+      <width>440</width>
+      <height>64</height>
       <font>font_huge_bold</font>
-      <textcolor>FFFFFFFF</textcolor>
-      <label>우리 영화 찾기</label>
+      <textcolor>main_fg_100</textcolor>
+      <label>영화찾기</label>
+    </control>
+    <control type="label">
+      <left>1650</left>
+      <top>56</top>
+      <width>190</width>
+      <height>48</height>
+      <font>font_midi</font>
+      <textcolor>main_fg_100</textcolor>
+      <label>$INFO[System.Time]</label>
+      <align>right</align>
+    </control>
+    <control type="image">
+      <left>80</left>
+      <top>124</top>
+      <width>1760</width>
+      <height>1</height>
+      <texture colordiffuse="main_fg_12">special://skin/extras/search-ui/white.png</texture>
+    </control>
+    <control type="label">
+      <left>80</left>
+      <top>145</top>
+      <width>480</width>
+      <height>44</height>
+      <font>font_mini</font>
+      <textcolor>main_fg_70</textcolor>
+      <label>보유 영화와 시리즈</label>
+    </control>
+    <control type="image">
+      <left>640</left>
+      <top>157</top>
+      <width>1200</width>
+      <height>84</height>
+      <texture colordiffuse="main_fg_06" border="24">special://skin/media/common/menu.png</texture>
     </control>
     <control type="label" id="10">
-      <left>626</left>
-      <top>103</top>
-      <width>1190</width>
-      <height>60</height>
-      <font>font_head</font>
-      <textcolor>FFFFFFFF</textcolor>
+      <left>664</left>
+      <top>172</top>
+      <width>1152</width>
+      <height>54</height>
+      <font>font_midi</font>
+      <textcolor>main_fg_100</textcolor>
       <label>제목이나 초성으로 검색</label>
     </control>
     <control type="label" id="11">
-      <left>608</left>
-      <top>202</top>
-      <width>1100</width>
-      <height>52</height>
+      <left>640</left>
+      <top>259</top>
+      <width>1160</width>
+      <height>45</height>
       <font>font_main_bold</font>
-      <textcolor>FFFFFFFF</textcolor>
+      <textcolor>main_fg_100</textcolor>
       <label>최근 추가한 작품</label>
     </control>
     <control type="label" id="12">
-      <left>608</left>
-      <top>940</top>
+      <left>640</left>
+      <top>1008</top>
       <width>1200</width>
-      <height>70</height>
-      <font>font_mini</font>
-      <textcolor>FFB4C2D3</textcolor>
+      <height>42</height>
+      <font>font_tiny</font>
+      <textcolor>main_fg_50</textcolor>
       <label>오른쪽에서 작품을 선택하세요</label>
     </control>
     <control type="label">
-      <left>64</left>
-      <top>935</top>
-      <width>505</width>
-      <height>50</height>
+      <left>80</left>
+      <top>950</top>
+      <width>480</width>
+      <height>40</height>
       <font>font_tiny</font>
-      <textcolor>FFB4C2D3</textcolor>
-      <label>초성 검색 가능 / 예: ㅋㅋㄹㅂ</label>
+      <textcolor>main_fg_50</textcolor>
+      <label>초성으로도 검색할 수 있어요</label>
+    </control>
+    <control type="label">
+      <left>80</left>
+      <top>987</top>
+      <width>480</width>
+      <height>40</height>
+      <font>font_tiny</font>
+      <textcolor>main_fg_70</textcolor>
+      <label>예: ㅋㅋㄹㅂ → 콘클라베</label>
     </control>
     <control type="button" id="20">
       <label>영문/숫자</label>
-      <left>68</left>
-      <top>204</top>
-      <width>225</width>
+      <left>80</left>
+      <top>213</top>
+      <width>228</width>
       <height>58</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>24</onup>
       <ondown>100</ondown>
       <onleft>24</onleft>
       <onright>21</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
     </control>
     <control type="button" id="21">
       <label>띄어쓰기</label>
-      <left>309</left>
-      <top>204</top>
-      <width>225</width>
+      <left>320</left>
+      <top>213</top>
+      <width>228</width>
       <height>58</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>24</onup>
       <ondown>103</ondown>
       <onleft>20</onleft>
       <onright>500</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
     </control>
     <control type="button" id="100">
       <label />
-      <left>68</left>
-      <top>282</top>
+      <left>80</left>
+      <top>293</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>20</onup>
       <ondown>106</ondown>
       <onleft>100</onleft>
       <onright>101</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(100)</visible>
     </control>
     <control type="button" id="101">
       <label />
-      <left>146</left>
-      <top>282</top>
+      <left>160</left>
+      <top>293</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>20</onup>
       <ondown>107</ondown>
       <onleft>100</onleft>
       <onright>102</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(101)</visible>
     </control>
     <control type="button" id="102">
       <label />
-      <left>224</left>
-      <top>282</top>
+      <left>240</left>
+      <top>293</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>20</onup>
       <ondown>108</ondown>
       <onleft>101</onleft>
       <onright>103</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(102)</visible>
     </control>
     <control type="button" id="103">
       <label />
-      <left>302</left>
-      <top>282</top>
+      <left>320</left>
+      <top>293</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>20</onup>
       <ondown>109</ondown>
       <onleft>102</onleft>
       <onright>104</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(103)</visible>
     </control>
     <control type="button" id="104">
       <label />
-      <left>380</left>
-      <top>282</top>
+      <left>400</left>
+      <top>293</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>20</onup>
       <ondown>110</ondown>
       <onleft>103</onleft>
       <onright>105</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(104)</visible>
     </control>
     <control type="button" id="105">
       <label />
-      <left>458</left>
-      <top>282</top>
+      <left>480</left>
+      <top>293</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>20</onup>
       <ondown>111</ondown>
       <onleft>104</onleft>
       <onright>500</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(105)</visible>
     </control>
     <control type="button" id="106">
       <label />
-      <left>68</left>
-      <top>350</top>
+      <left>80</left>
+      <top>363</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>100</onup>
       <ondown>112</ondown>
       <onleft>106</onleft>
       <onright>107</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(106)</visible>
     </control>
     <control type="button" id="107">
       <label />
-      <left>146</left>
-      <top>350</top>
+      <left>160</left>
+      <top>363</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>101</onup>
       <ondown>113</ondown>
       <onleft>106</onleft>
       <onright>108</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(107)</visible>
     </control>
     <control type="button" id="108">
       <label />
-      <left>224</left>
-      <top>350</top>
+      <left>240</left>
+      <top>363</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>102</onup>
       <ondown>114</ondown>
       <onleft>107</onleft>
       <onright>109</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(108)</visible>
     </control>
     <control type="button" id="109">
       <label />
-      <left>302</left>
-      <top>350</top>
+      <left>320</left>
+      <top>363</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>103</onup>
       <ondown>115</ondown>
       <onleft>108</onleft>
       <onright>110</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(109)</visible>
     </control>
     <control type="button" id="110">
       <label />
-      <left>380</left>
-      <top>350</top>
+      <left>400</left>
+      <top>363</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>104</onup>
       <ondown>116</ondown>
       <onleft>109</onleft>
       <onright>111</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(110)</visible>
     </control>
     <control type="button" id="111">
       <label />
-      <left>458</left>
-      <top>350</top>
+      <left>480</left>
+      <top>363</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>105</onup>
       <ondown>117</ondown>
       <onleft>110</onleft>
       <onright>500</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(111)</visible>
     </control>
     <control type="button" id="112">
       <label />
-      <left>68</left>
-      <top>418</top>
+      <left>80</left>
+      <top>433</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>106</onup>
       <ondown>118</ondown>
       <onleft>112</onleft>
       <onright>113</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(112)</visible>
     </control>
     <control type="button" id="113">
       <label />
-      <left>146</left>
-      <top>418</top>
+      <left>160</left>
+      <top>433</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>107</onup>
       <ondown>119</ondown>
       <onleft>112</onleft>
       <onright>114</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(113)</visible>
     </control>
     <control type="button" id="114">
       <label />
-      <left>224</left>
-      <top>418</top>
+      <left>240</left>
+      <top>433</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>108</onup>
       <ondown>120</ondown>
       <onleft>113</onleft>
       <onright>115</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(114)</visible>
     </control>
     <control type="button" id="115">
       <label />
-      <left>302</left>
-      <top>418</top>
+      <left>320</left>
+      <top>433</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>109</onup>
       <ondown>121</ondown>
       <onleft>114</onleft>
       <onright>116</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(115)</visible>
     </control>
     <control type="button" id="116">
       <label />
-      <left>380</left>
-      <top>418</top>
+      <left>400</left>
+      <top>433</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>110</onup>
       <ondown>122</ondown>
       <onleft>115</onleft>
       <onright>117</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(116)</visible>
     </control>
     <control type="button" id="117">
       <label />
-      <left>458</left>
-      <top>418</top>
+      <left>480</left>
+      <top>433</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>111</onup>
       <ondown>123</ondown>
       <onleft>116</onleft>
       <onright>500</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(117)</visible>
     </control>
     <control type="button" id="118">
       <label />
-      <left>68</left>
-      <top>486</top>
+      <left>80</left>
+      <top>503</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>112</onup>
       <ondown>124</ondown>
       <onleft>118</onleft>
       <onright>119</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(118)</visible>
     </control>
     <control type="button" id="119">
       <label />
-      <left>146</left>
-      <top>486</top>
+      <left>160</left>
+      <top>503</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>113</onup>
       <ondown>125</ondown>
       <onleft>118</onleft>
       <onright>120</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(119)</visible>
     </control>
     <control type="button" id="120">
       <label />
-      <left>224</left>
-      <top>486</top>
+      <left>240</left>
+      <top>503</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>114</onup>
       <ondown>126</ondown>
       <onleft>119</onleft>
       <onright>121</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(120)</visible>
     </control>
     <control type="button" id="121">
       <label />
-      <left>302</left>
-      <top>486</top>
+      <left>320</left>
+      <top>503</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>115</onup>
       <ondown>127</ondown>
       <onleft>120</onleft>
       <onright>122</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(121)</visible>
     </control>
     <control type="button" id="122">
       <label />
-      <left>380</left>
-      <top>486</top>
+      <left>400</left>
+      <top>503</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>116</onup>
       <ondown>128</ondown>
       <onleft>121</onleft>
       <onright>123</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(122)</visible>
     </control>
     <control type="button" id="123">
       <label />
-      <left>458</left>
-      <top>486</top>
+      <left>480</left>
+      <top>503</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>117</onup>
       <ondown>129</ondown>
       <onleft>122</onleft>
       <onright>500</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(123)</visible>
     </control>
     <control type="button" id="124">
       <label />
-      <left>68</left>
-      <top>554</top>
+      <left>80</left>
+      <top>573</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>118</onup>
       <ondown>130</ondown>
       <onleft>124</onleft>
       <onright>125</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(124)</visible>
     </control>
     <control type="button" id="125">
       <label />
-      <left>146</left>
-      <top>554</top>
+      <left>160</left>
+      <top>573</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>119</onup>
       <ondown>131</ondown>
       <onleft>124</onleft>
       <onright>126</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(125)</visible>
     </control>
     <control type="button" id="126">
       <label />
-      <left>224</left>
-      <top>554</top>
+      <left>240</left>
+      <top>573</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>120</onup>
       <ondown>132</ondown>
       <onleft>125</onleft>
       <onright>127</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(126)</visible>
     </control>
     <control type="button" id="127">
       <label />
-      <left>302</left>
-      <top>554</top>
+      <left>320</left>
+      <top>573</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>121</onup>
       <ondown>133</ondown>
       <onleft>126</onleft>
       <onright>128</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(127)</visible>
     </control>
     <control type="button" id="128">
       <label />
-      <left>380</left>
-      <top>554</top>
+      <left>400</left>
+      <top>573</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>122</onup>
       <ondown>134</ondown>
       <onleft>127</onleft>
       <onright>129</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(128)</visible>
     </control>
     <control type="button" id="129">
       <label />
-      <left>458</left>
-      <top>554</top>
+      <left>480</left>
+      <top>573</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>123</onup>
       <ondown>135</ondown>
       <onleft>128</onleft>
       <onright>500</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(129)</visible>
     </control>
     <control type="button" id="130">
       <label />
-      <left>68</left>
-      <top>622</top>
+      <left>80</left>
+      <top>643</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>124</onup>
       <ondown>136</ondown>
       <onleft>130</onleft>
       <onright>131</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(130)</visible>
     </control>
     <control type="button" id="131">
       <label />
-      <left>146</left>
-      <top>622</top>
+      <left>160</left>
+      <top>643</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>125</onup>
       <ondown>137</ondown>
       <onleft>130</onleft>
       <onright>132</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(131)</visible>
     </control>
     <control type="button" id="132">
       <label />
-      <left>224</left>
-      <top>622</top>
+      <left>240</left>
+      <top>643</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>126</onup>
       <ondown>138</ondown>
       <onleft>131</onleft>
       <onright>133</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(132)</visible>
     </control>
     <control type="button" id="133">
       <label />
-      <left>302</left>
-      <top>622</top>
+      <left>320</left>
+      <top>643</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>127</onup>
       <ondown>139</ondown>
       <onleft>132</onleft>
       <onright>134</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(133)</visible>
     </control>
     <control type="button" id="134">
       <label />
-      <left>380</left>
-      <top>622</top>
+      <left>400</left>
+      <top>643</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>128</onup>
       <ondown>140</ondown>
       <onleft>133</onleft>
       <onright>135</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(134)</visible>
     </control>
     <control type="button" id="135">
       <label />
-      <left>458</left>
-      <top>622</top>
+      <left>480</left>
+      <top>643</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>129</onup>
       <ondown>141</ondown>
       <onleft>134</onleft>
       <onright>500</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(135)</visible>
     </control>
     <control type="button" id="136">
       <label />
-      <left>68</left>
-      <top>690</top>
+      <left>80</left>
+      <top>713</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>130</onup>
       <ondown>22</ondown>
       <onleft>136</onleft>
       <onright>137</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(136)</visible>
     </control>
     <control type="button" id="137">
       <label />
-      <left>146</left>
-      <top>690</top>
+      <left>160</left>
+      <top>713</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>131</onup>
       <ondown>22</ondown>
       <onleft>136</onleft>
       <onright>138</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(137)</visible>
     </control>
     <control type="button" id="138">
       <label />
-      <left>224</left>
-      <top>690</top>
+      <left>240</left>
+      <top>713</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>132</onup>
       <ondown>22</ondown>
       <onleft>137</onleft>
       <onright>139</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(138)</visible>
     </control>
     <control type="button" id="139">
       <label />
-      <left>302</left>
-      <top>690</top>
+      <left>320</left>
+      <top>713</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>133</onup>
       <ondown>22</ondown>
       <onleft>138</onleft>
       <onright>140</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(139)</visible>
     </control>
     <control type="button" id="140">
       <label />
-      <left>380</left>
-      <top>690</top>
+      <left>400</left>
+      <top>713</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>134</onup>
       <ondown>22</ondown>
       <onleft>139</onleft>
       <onright>141</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(140)</visible>
     </control>
     <control type="button" id="141">
       <label />
-      <left>458</left>
-      <top>690</top>
+      <left>480</left>
+      <top>713</top>
       <width>68</width>
-      <height>58</height>
+      <height>60</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>135</onup>
       <ondown>22</ondown>
       <onleft>140</onleft>
       <onright>500</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
+      <visible>Control.IsEnabled(141)</visible>
     </control>
     <control type="button" id="22">
-      <label>한 글자 지우기</label>
-      <left>68</left>
-      <top>774</top>
-      <width>225</width>
+      <label>지우기</label>
+      <left>80</left>
+      <top>803</top>
+      <width>228</width>
       <height>58</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>136</onup>
       <ondown>24</ondown>
       <onleft>22</onleft>
       <onright>23</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
     </control>
     <control type="button" id="23">
       <label>모두 지우기</label>
-      <left>309</left>
-      <top>774</top>
-      <width>225</width>
+      <left>320</left>
+      <top>803</top>
+      <width>228</width>
       <height>58</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>139</onup>
       <ondown>25</ondown>
       <onleft>22</onleft>
       <onright>500</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
     </control>
     <control type="button" id="24">
       <label>뒤로</label>
-      <left>68</left>
-      <top>848</top>
-      <width>225</width>
+      <left>80</left>
+      <top>879</top>
+      <width>228</width>
       <height>58</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>22</onup>
       <ondown>24</ondown>
       <onleft>24</onleft>
       <onright>25</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
     </control>
     <control type="button" id="25">
       <label>결과 보기</label>
-      <left>309</left>
-      <top>848</top>
-      <width>225</width>
+      <left>320</left>
+      <top>879</top>
+      <width>228</width>
       <height>58</height>
       <font>font_main</font>
-      <textcolor>FFE0E7F0</textcolor>
-      <focusedcolor>FF10151E</focusedcolor>
+      <textcolor>main_fg_90</textcolor>
+      <focusedcolor>FF101014</focusedcolor>
+      <textoffsetx>0</textoffsetx>
+      <textoffsety>0</textoffsety>
       <align>center</align>
       <aligny>center</aligny>
       <onup>23</onup>
       <ondown>25</ondown>
       <onleft>24</onleft>
       <onright>500</onright>
-      <texturefocus colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texturefocus>
-      <texturenofocus colordiffuse="FF283444">special://skin/extras/search-ui/white.png</texturenofocus>
+      <texturefocus colordiffuse="FFFFFFFF" border="12">special://skin/extras/search-ui/key.png</texturefocus>
+      <texturenofocus colordiffuse="main_fg_12" border="12">special://skin/extras/search-ui/key.png</texturenofocus>
     </control>
     <control type="panel" id="500">
-      <left>608</left>
-      <top>278</top>
-      <width>1250</width>
-      <height>650</height>
+      <left>640</left>
+      <top>322</top>
+      <width>1200</width>
+      <height>674</height>
       <onleft>25</onleft>
       <onup>500</onup>
       <ondown>500</ondown>
@@ -944,76 +1110,69 @@
       <orientation>vertical</orientation>
       <scrolltime>150</scrolltime>
       <preloaditems>2</preloaditems>
-      <itemlayout width="248" height="322">
+      <itemlayout width="240" height="337">
         <control type="image">
-          <left>0</left>
-          <top>0</top>
-          <width>226</width>
-          <height>310</height>
-          <texture colordiffuse="FF202C3B">special://skin/extras/search-ui/white.png</texture>
-        </control>
-        <control type="image">
-          <left>5</left>
-          <top>5</top>
-          <width>216</width>
-          <height>246</height>
+          <left>4</left>
+          <top>4</top>
+          <width>200</width>
+          <height>278</height>
           <aspectratio>keep</aspectratio>
           <texture background="true">$INFO[ListItem.Art(poster)]</texture>
         </control>
         <control type="label">
           <left>8</left>
-          <top>253</top>
-          <width>210</width>
+          <top>284</top>
+          <width>192</width>
           <height>26</height>
           <font>font_tiny_bold</font>
-          <textcolor>FFFFFFFF</textcolor>
+          <textcolor>main_fg_90</textcolor>
           <label>$INFO[ListItem.Label]</label>
           <scroll>false</scroll>
         </control>
         <control type="label">
           <left>8</left>
-          <top>281</top>
-          <width>210</width>
+          <top>311</top>
+          <width>192</width>
           <height>26</height>
           <font>font_hint</font>
-          <textcolor>FFFFFFFF</textcolor>
+          <textcolor>main_fg_90</textcolor>
           <label>$INFO[ListItem.Label2]</label>
           <scroll>false</scroll>
         </control>
       </itemlayout>
-      <focusedlayout width="248" height="322">
+      <focusedlayout width="240" height="337">
         <control type="image">
           <left>0</left>
           <top>0</top>
-          <width>226</width>
-          <height>310</height>
-          <texture colordiffuse="FFF2F5FA">special://skin/extras/search-ui/white.png</texture>
+          <width>208</width>
+          <height>337</height>
+          <texture colordiffuse="main_fg_100" border="12">special://skin/extras/search-ui/key.png</texture>
         </control>
         <control type="image">
-          <left>5</left>
-          <top>5</top>
-          <width>216</width>
-          <height>246</height>
+          <left>4</left>
+          <top>4</top>
+          <width>200</width>
+          <height>278</height>
           <aspectratio>keep</aspectratio>
           <texture background="true">$INFO[ListItem.Art(poster)]</texture>
         </control>
         <control type="label">
           <left>8</left>
-          <top>253</top>
-          <width>210</width>
+          <top>284</top>
+          <width>192</width>
           <height>26</height>
           <font>font_tiny_bold</font>
-          <textcolor>FF10151E</textcolor>
+          <textcolor>FF101014</textcolor>
           <label>$INFO[ListItem.Label]</label>
           <scroll>false</scroll>
         </control>
         <control type="label">
           <left>8</left>
-          <top>281</top>
-          <width>210</width>
+          <top>311</top>
+          <width>192</width>
           <height>26</height>
           <font>font_hint</font>
-          <textcolor>FF10151E</textcolor>
+          <textcolor>FF101014</textcolor>
           <label>$INFO[ListItem.Label2]</label>
           <scroll>false</scroll>
         </control>
