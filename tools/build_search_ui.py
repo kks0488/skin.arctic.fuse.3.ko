@@ -36,13 +36,12 @@ label(None, '영화찾기', 80, 48, 440, 64, 'font_huge_bold')
 label(None, '$INFO[System.Time]', 1650, 56, 190, 48, 'font_midi').append(E.Element('align'))
 cs[-1].find('align').text = 'right'
 image(cs, 80, 124, 1760, 1, 'main_fg_12')
-label(None, '보유 영화와 시리즈', 80, 145, 480, 44, 'font_mini', 'main_fg_70')
-image(cs, 640, 157, 1200, 84, 'main_fg_06', ROUND, 24)
-label(10, '제목이나 초성으로 검색', 664, 172, 1152, 54, 'font_midi')
-label(11, '최근 추가한 작품', 640, 259, 1160, 45, 'font_main_bold')
+image(cs, 640, 157, 1200, 58, 'main_fg_06', KEY, 12)
+label(10, '제목이나 초성으로 검색', 664, 159, 1152, 54, 'font_midi')
+label(11, '최근 추가한 작품', 640, 237, 1160, 45, 'font_main_bold')
 label(12, '오른쪽에서 작품을 선택하세요', 640, 1008, 1200, 42, 'font_tiny', 'main_fg_50')
-label(None, '초성으로도 검색할 수 있어요', 80, 950, 480, 40, 'font_tiny', 'main_fg_50')
-label(None, '예: ㅋㅋㄹㅂ → 콘클라베', 80, 987, 480, 40, 'font_tiny', 'main_fg_70')
+label(None, '초성으로도 검색할 수 있어요', 80, 894, 480, 40, 'font_tiny', 'main_fg_50')
+label(None, '예: ㅋㅋㄹㅂ → 콘클라베', 80, 931, 480, 40, 'font_tiny', 'main_fg_70')
 
 def button(id, text, x, y, width, height, up, down, left, right):
     c = control(cs, 'button', id, label=text, left=x, top=y, width=width, height=height,
@@ -53,20 +52,20 @@ def button(id, text, x, y, width, height, up, down, left, right):
     E.SubElement(c, 'texturenofocus', colordiffuse='main_fg_12', border='12').text = KEY
     return c
 
-button(20, '영문/숫자', 80, 213, 228, 58, 24, 100, 24, 21)
-button(21, '띄어쓰기', 320, 213, 228, 58, 24, 103, 20, 500)
+button(20, '영문/숫자', 80, 157, 228, 58, 24, 100, 24, 21)
+button(21, '띄어쓰기', 320, 157, 228, 58, 24, 103, 20, 500)
 for i in range(42):
     row, col = divmod(i, 6)
     cid = 100 + i
-    c = button(cid, '', 80+col*80, 293+row*70, 68, 60,
+    c = button(cid, '', 80+col*80, 237+row*70, 68, 60,
                cid-6 if row else 20, cid+6 if row < 6 else 22,
                cid-1 if col else cid, cid+1 if col < 5 else 500)
     E.SubElement(c, 'visible').text = 'Control.IsEnabled(%s)' % cid
-button(22, '지우기', 80, 803, 228, 58, 136, 24, 22, 23)
-button(23, '모두 지우기', 320, 803, 228, 58, 139, 25, 22, 500)
-button(24, '뒤로', 80, 879, 228, 58, 22, 24, 24, 25)
-button(25, '결과 보기', 320, 879, 228, 58, 23, 25, 24, 500)
-p = control(cs, 'panel', 500, left=640, top=322, width=1200, height=674,
+button(22, '지우기', 80, 747, 228, 58, 136, 24, 22, 23)
+button(23, '모두 지우기', 320, 747, 228, 58, 139, 25, 22, 500)
+button(24, '뒤로', 80, 823, 228, 58, 22, 24, 24, 25)
+button(25, '결과 보기', 320, 823, 228, 58, 23, 25, 24, 500)
+p = control(cs, 'panel', 500, left=640, top=300, width=1200, height=674,
             onleft=25, onup=500, ondown=500, onright=500,
             orientation='vertical', scrolltime=150, preloaditems=2)
 for layout in ('itemlayout', 'focusedlayout'):

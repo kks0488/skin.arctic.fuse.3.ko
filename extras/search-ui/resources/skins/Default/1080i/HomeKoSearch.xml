@@ -35,25 +35,16 @@
       <height>1</height>
       <texture colordiffuse="main_fg_12">special://skin/extras/search-ui/white.png</texture>
     </control>
-    <control type="label">
-      <left>80</left>
-      <top>145</top>
-      <width>480</width>
-      <height>44</height>
-      <font>font_mini</font>
-      <textcolor>main_fg_70</textcolor>
-      <label>보유 영화와 시리즈</label>
-    </control>
     <control type="image">
       <left>640</left>
       <top>157</top>
       <width>1200</width>
-      <height>84</height>
-      <texture colordiffuse="main_fg_06" border="24">special://skin/media/common/menu.png</texture>
+      <height>58</height>
+      <texture colordiffuse="main_fg_06" border="12">special://skin/extras/search-ui/key.png</texture>
     </control>
     <control type="label" id="10">
       <left>664</left>
-      <top>172</top>
+      <top>159</top>
       <width>1152</width>
       <height>54</height>
       <font>font_midi</font>
@@ -62,7 +53,7 @@
     </control>
     <control type="label" id="11">
       <left>640</left>
-      <top>259</top>
+      <top>237</top>
       <width>1160</width>
       <height>45</height>
       <font>font_main_bold</font>
@@ -80,7 +71,7 @@
     </control>
     <control type="label">
       <left>80</left>
-      <top>950</top>
+      <top>894</top>
       <width>480</width>
       <height>40</height>
       <font>font_tiny</font>
@@ -89,7 +80,7 @@
     </control>
     <control type="label">
       <left>80</left>
-      <top>987</top>
+      <top>931</top>
       <width>480</width>
       <height>40</height>
       <font>font_tiny</font>
@@ -99,7 +90,7 @@
     <control type="button" id="20">
       <label>영문/숫자</label>
       <left>80</left>
-      <top>213</top>
+      <top>157</top>
       <width>228</width>
       <height>58</height>
       <font>font_main</font>
@@ -119,7 +110,7 @@
     <control type="button" id="21">
       <label>띄어쓰기</label>
       <left>320</left>
-      <top>213</top>
+      <top>157</top>
       <width>228</width>
       <height>58</height>
       <font>font_main</font>
@@ -139,7 +130,7 @@
     <control type="button" id="100">
       <label />
       <left>80</left>
-      <top>293</top>
+      <top>237</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -160,7 +151,7 @@
     <control type="button" id="101">
       <label />
       <left>160</left>
-      <top>293</top>
+      <top>237</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -181,7 +172,7 @@
     <control type="button" id="102">
       <label />
       <left>240</left>
-      <top>293</top>
+      <top>237</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -202,7 +193,7 @@
     <control type="button" id="103">
       <label />
       <left>320</left>
-      <top>293</top>
+      <top>237</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -223,7 +214,7 @@
     <control type="button" id="104">
       <label />
       <left>400</left>
-      <top>293</top>
+      <top>237</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -244,7 +235,7 @@
     <control type="button" id="105">
       <label />
       <left>480</left>
-      <top>293</top>
+      <top>237</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -265,7 +256,7 @@
     <control type="button" id="106">
       <label />
       <left>80</left>
-      <top>363</top>
+      <top>307</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -286,7 +277,7 @@
     <control type="button" id="107">
       <label />
       <left>160</left>
-      <top>363</top>
+      <top>307</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -307,7 +298,7 @@
     <control type="button" id="108">
       <label />
       <left>240</left>
-      <top>363</top>
+      <top>307</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -328,7 +319,7 @@
     <control type="button" id="109">
       <label />
       <left>320</left>
-      <top>363</top>
+      <top>307</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -349,7 +340,7 @@
     <control type="button" id="110">
       <label />
       <left>400</left>
-      <top>363</top>
+      <top>307</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -370,7 +361,7 @@
     <control type="button" id="111">
       <label />
       <left>480</left>
-      <top>363</top>
+      <top>307</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -391,7 +382,7 @@
     <control type="button" id="112">
       <label />
       <left>80</left>
-      <top>433</top>
+      <top>377</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -412,7 +403,7 @@
     <control type="button" id="113">
       <label />
       <left>160</left>
-      <top>433</top>
+      <top>377</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -433,7 +424,7 @@
     <control type="button" id="114">
       <label />
       <left>240</left>
-      <top>433</top>
+      <top>377</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -454,7 +445,7 @@
     <control type="button" id="115">
       <label />
       <left>320</left>
-      <top>433</top>
+      <top>377</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -475,7 +466,7 @@
     <control type="button" id="116">
       <label />
       <left>400</left>
-      <top>433</top>
+      <top>377</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -496,7 +487,7 @@
     <control type="button" id="117">
       <label />
       <left>480</left>
-      <top>433</top>
+      <top>377</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -517,7 +508,7 @@
     <control type="button" id="118">
       <label />
       <left>80</left>
-      <top>503</top>
+      <top>447</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -538,7 +529,7 @@
     <control type="button" id="119">
       <label />
       <left>160</left>
-      <top>503</top>
+      <top>447</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -559,7 +550,7 @@
     <control type="button" id="120">
       <label />
       <left>240</left>
-      <top>503</top>
+      <top>447</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -580,7 +571,7 @@
     <control type="button" id="121">
       <label />
       <left>320</left>
-      <top>503</top>
+      <top>447</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -601,7 +592,7 @@
     <control type="button" id="122">
       <label />
       <left>400</left>
-      <top>503</top>
+      <top>447</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -622,7 +613,7 @@
     <control type="button" id="123">
       <label />
       <left>480</left>
-      <top>503</top>
+      <top>447</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -643,7 +634,7 @@
     <control type="button" id="124">
       <label />
       <left>80</left>
-      <top>573</top>
+      <top>517</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -664,7 +655,7 @@
     <control type="button" id="125">
       <label />
       <left>160</left>
-      <top>573</top>
+      <top>517</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -685,7 +676,7 @@
     <control type="button" id="126">
       <label />
       <left>240</left>
-      <top>573</top>
+      <top>517</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -706,7 +697,7 @@
     <control type="button" id="127">
       <label />
       <left>320</left>
-      <top>573</top>
+      <top>517</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -727,7 +718,7 @@
     <control type="button" id="128">
       <label />
       <left>400</left>
-      <top>573</top>
+      <top>517</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -748,7 +739,7 @@
     <control type="button" id="129">
       <label />
       <left>480</left>
-      <top>573</top>
+      <top>517</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -769,7 +760,7 @@
     <control type="button" id="130">
       <label />
       <left>80</left>
-      <top>643</top>
+      <top>587</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -790,7 +781,7 @@
     <control type="button" id="131">
       <label />
       <left>160</left>
-      <top>643</top>
+      <top>587</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -811,7 +802,7 @@
     <control type="button" id="132">
       <label />
       <left>240</left>
-      <top>643</top>
+      <top>587</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -832,7 +823,7 @@
     <control type="button" id="133">
       <label />
       <left>320</left>
-      <top>643</top>
+      <top>587</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -853,7 +844,7 @@
     <control type="button" id="134">
       <label />
       <left>400</left>
-      <top>643</top>
+      <top>587</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -874,7 +865,7 @@
     <control type="button" id="135">
       <label />
       <left>480</left>
-      <top>643</top>
+      <top>587</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -895,7 +886,7 @@
     <control type="button" id="136">
       <label />
       <left>80</left>
-      <top>713</top>
+      <top>657</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -916,7 +907,7 @@
     <control type="button" id="137">
       <label />
       <left>160</left>
-      <top>713</top>
+      <top>657</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -937,7 +928,7 @@
     <control type="button" id="138">
       <label />
       <left>240</left>
-      <top>713</top>
+      <top>657</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -958,7 +949,7 @@
     <control type="button" id="139">
       <label />
       <left>320</left>
-      <top>713</top>
+      <top>657</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -979,7 +970,7 @@
     <control type="button" id="140">
       <label />
       <left>400</left>
-      <top>713</top>
+      <top>657</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -1000,7 +991,7 @@
     <control type="button" id="141">
       <label />
       <left>480</left>
-      <top>713</top>
+      <top>657</top>
       <width>68</width>
       <height>60</height>
       <font>font_main</font>
@@ -1021,7 +1012,7 @@
     <control type="button" id="22">
       <label>지우기</label>
       <left>80</left>
-      <top>803</top>
+      <top>747</top>
       <width>228</width>
       <height>58</height>
       <font>font_main</font>
@@ -1041,7 +1032,7 @@
     <control type="button" id="23">
       <label>모두 지우기</label>
       <left>320</left>
-      <top>803</top>
+      <top>747</top>
       <width>228</width>
       <height>58</height>
       <font>font_main</font>
@@ -1061,7 +1052,7 @@
     <control type="button" id="24">
       <label>뒤로</label>
       <left>80</left>
-      <top>879</top>
+      <top>823</top>
       <width>228</width>
       <height>58</height>
       <font>font_main</font>
@@ -1081,7 +1072,7 @@
     <control type="button" id="25">
       <label>결과 보기</label>
       <left>320</left>
-      <top>879</top>
+      <top>823</top>
       <width>228</width>
       <height>58</height>
       <font>font_main</font>
@@ -1100,7 +1091,7 @@
     </control>
     <control type="panel" id="500">
       <left>640</left>
-      <top>322</top>
+      <top>300</top>
       <width>1200</width>
       <height>674</height>
       <onleft>25</onleft>
