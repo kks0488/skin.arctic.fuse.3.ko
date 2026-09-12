@@ -78,5 +78,9 @@ for layout in ('itemlayout', 'focusedlayout'):
         control(l, 'label', left=8, top=y, width=192, height=26, font=font,
                 textcolor='FF101014' if layout == 'focusedlayout' else 'main_fg_90',
                 label=text, scroll='false')
+# Cover the search controls while Kodi's translucent movie-info dialog is open.
+# The dialog is drawn above this window; dismissing it restores the same search.
+cover = image(cs, 0, 0, 1920, 1080, 'FF09090D')
+E.SubElement(cover, 'visible').text = 'Window.IsVisible(12003)'
 E.indent(w)
 E.ElementTree(w).write(ROOT/'extras/search-ui/resources/skins/Default/1080i/HomeKoSearch.xml', encoding='UTF-8', xml_declaration=True)
